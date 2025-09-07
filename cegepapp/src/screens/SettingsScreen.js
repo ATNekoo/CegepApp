@@ -8,12 +8,14 @@ import {ThemeContext} from '../context/ThemeContext';
 
    return (
 
-    <View>
-
-
-
-    </View>
-
+     <View style={[styles.container, theme === 'dark' ? styles.dark :
+       styles.light]}>
+       <Text style={styles.title}>Paramètres</Text>
+       <View style={styles.row}>
+         <Text>Mode sombre</Text>
+         <Switch value={theme === 'dark'} onValueChange={toggleTheme} />
+       </View>
+     </View>
 
 
    );
