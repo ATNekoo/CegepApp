@@ -31,9 +31,9 @@ const styles = StyleSheet.create({
         margin: 20,
     },
     button: {
-        padding: 40,
-        borderRadius: 4,
+        padding: 20,
+        borderRadius: 8,
         borderWidth: 1,
-        backgroundColor: 'purple',
+        backgroundColor: 'rebeccapurple',
     },
 });
