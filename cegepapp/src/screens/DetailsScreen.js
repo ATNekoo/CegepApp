@@ -5,7 +5,7 @@ export default function DetailsScreen() {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Bonjour les jeunes...</Text>
-            <Text style={styles.subtitle}> Bonjour princesse, t'a bien dormis ? T'as pas pensé à moi ??..Même pas un peu...méchante.. :P
+            <Text style={styles.subtitle}> Bonjour princesse, ça va ? t'a bien dormis ? T'as pas pensé à moi ? Même pas un peu ?
             </Text>
         </View>
     );
