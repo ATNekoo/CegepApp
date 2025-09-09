@@ -1,13 +1,13 @@
 import React from 'react';
-import { View, Text, Button, StyleSheet } from 'react-native';
+import { View, Text, Button, StyleSheet, TouchableOpacity } from 'react-native';
 
 export default function HomeScreen({navigation}) {
     return(
         <View style={styles.container}>
-            <Text style={styles.title}>Home</Text>
-            <Button title='See details' onPress={() => navigation.navigate('Details')}></Button>
+            <Text style={styles.title}>Sweet home Alabama...</Text>
+            <TouchableOpacity title='See details' onPress={() => navigation.navigate('Details')}></TouchableOpacity>
             <View></View>
-            <Button title='See counter' onPress={() => navigation.navigate('Counter')}></Button>
+            <TouchableOpacity title='See counter' onPress={() => navigation.navigate('Counter')}></TouchableOpacity>
         </View>
     )
     
@@ -29,5 +29,12 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: 400,
         margin: 20,
-    }
+    },
+    button: {
+        padding: 40,
+        borderRadius: 4,
+        borderWidth: 1,
+        borderColor: 'purple',
+        backgroundColor: 'lightpurple',
+    },
 });
