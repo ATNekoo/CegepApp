@@ -5,9 +5,9 @@ export default function HomeScreen({navigation}) {
     return(
         <View style={styles.container}>
             <Text style={styles.title}>Sweet home Alabama...</Text>
-            <TouchableOpacity title='See details' onPress={() => navigation.navigate('Details')}></TouchableOpacity>
+            <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Details')}><Text>See Details</Text></TouchableOpacity>
             <View></View>
-            <TouchableOpacity title='See counter' onPress={() => navigation.navigate('Counter')}></TouchableOpacity>
+            <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Counter')}><Text>See Counter</Text></TouchableOpacity>
         </View>
     )
     
