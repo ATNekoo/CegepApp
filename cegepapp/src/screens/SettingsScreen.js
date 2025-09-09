@@ -1,5 +1,5 @@
 import React,{useContext} from "react";
-import {View,Text,Switch,Stylesheet} from 'react-native';
+import {View,Text,Switch,StyleSheet} from 'react-native';
 import {ThemeContext} from '../context/ThemeContext';
 
  export default function SettingsScreen() {
@@ -22,7 +22,7 @@ import {ThemeContext} from '../context/ThemeContext';
 }
 
 
-   const styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16

@@ -4,8 +4,8 @@ import { View, Text, StyleSheet} from 'react-native';
 export default function DetailsScreen() {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Bonjour les jeunes.</Text>
-            <Text style={styles.subtitle}> Bonsoir.
+            <Text style={styles.title}>Bonjour les jeunes...</Text>
+            <Text style={styles.subtitle}> Bonjour princesse, t'a bien dormis ? T'as pas pensé à moi ??..Même pas un peu...méchante.. :P
             </Text>
         </View>
     );
