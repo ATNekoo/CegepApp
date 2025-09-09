@@ -30,7 +30,8 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 22,
     fontWeight: '600',
-    marginBottom: 12
+    marginBottom: 12,
+    color:"#1848e7ff"
   },
   row: {
     flexDirection: 'row',
@@ -41,7 +42,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#ffffff'
   },
   dark: {
-    backgroundColor: '#111111'
+    backgroundColor: '#333'
   },
 });
 
