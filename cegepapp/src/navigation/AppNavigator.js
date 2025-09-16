@@ -17,7 +17,16 @@ function Tabs() {
         component={HomeScreen}
         options={{ title: "Home" }}
       />
-
+      <Tab.Screen
+      name="Playlist"
+      component={HomeScreen}
+      options={{ title: "Playlist" }}
+      />
+      <Tab.Screen
+        name="Chatbot"
+        component={HomeScreen}
+        options={{ title: "Chatbot" }}
+      />
       <Tab.Screen
         name="Settings"
         component={SettingsScreen}
@@ -25,6 +34,7 @@ function Tabs() {
           title: "Settings",
         }}
       />
+
     </Tab.Navigator>
   );
 }
