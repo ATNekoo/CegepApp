@@ -39,10 +39,12 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between'
   },
   light: {
-    backgroundColor: '#ffffff'
+    backgroundColor: '#ffffff',
+    color: "#000"
   },
   dark: {
-    backgroundColor: '#333'
+    backgroundColor: '#333',
+    color: "#fff"
   },
 });
 

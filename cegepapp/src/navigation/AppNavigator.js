@@ -25,6 +25,7 @@ function Tabs() {
           title: "Counter",
         }}
       />
+      
       <Tab.Screen
         name="Settings"
         component={SettingsScreen}
