@@ -4,7 +4,6 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import HomeScreen from "../screens/HomeScreen";
 import DetailsScreen from "../screens/DetailsScreen";
-import CounterScreen from "../screens/CounterScreen";
 import SettingsScreen from "../screens/SettingsScreen";
 
 const Stack = createNativeStackNavigator();
@@ -18,14 +17,7 @@ function Tabs() {
         component={HomeScreen}
         options={{ title: "Home" }}
       />
-      <Tab.Screen
-        name="Counter"
-        component={CounterScreen}
-        options={{
-          title: "Counter",
-        }}
-      />
-      
+
       <Tab.Screen
         name="Settings"
         component={SettingsScreen}
