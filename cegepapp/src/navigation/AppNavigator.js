@@ -5,7 +5,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import HomeScreen from "../screens/HomeScreen";
 import DetailsScreen from "../screens/DetailsScreen";
 import SettingsScreen from "../screens/SettingsScreen";
-
+import ChatbotScreen from "../screens/ChatbotScreen";
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
 
@@ -24,7 +24,7 @@ function Tabs() {
       />
       <Tab.Screen
         name="Chatbot"
-        component={HomeScreen}
+        component={ChatbotScreen}
         options={{ title: "Chatbot" }}
       />
       <Tab.Screen
@@ -51,6 +51,7 @@ export default function AppNavigator() {
           }}
         />
         <Stack.Screen name="Details" component={DetailsScreen} />
+        <Stack.Screen name="Chatbot" component={ChatbotScreen} options={{ title: "Chatbot" }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
