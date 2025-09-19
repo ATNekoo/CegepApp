@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, Button, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, Button, StyleSheet, TouchableOpacity, FlatList, Image } from 'react-native';
 import { getRandomSongs } from '../hooks/RandomSong';
 
 export default function HomeScreen({navigation}) {
@@ -13,7 +13,7 @@ export default function HomeScreen({navigation}) {
 
     const renderSongItem = ({item}) => {
         <View>
-            <Image/>
+            <Image source={{ uri:"https://genius.com/album_cover_arts/238163"}}/>
             <View/>
         </View>
     }
@@ -21,6 +21,9 @@ export default function HomeScreen({navigation}) {
     return(
         <View style={styles.container}>
             <Text style={styles.title}>Search</Text>
+            <Text style={styles.subtitle}>Featured Songs</Text>
+            <FlatList
+            data={featuredSongs} renderItem={renderSongItem()} />
             <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Details')}><Text>See Details</Text></TouchableOpacity>
             <View></View>
         </View>
@@ -60,6 +63,7 @@ const styles = StyleSheet.create({
         padding: 12,
         marginRight: 16,
         marginBottom: 20,
-        
+        backgroundColor: '#f0f0f0',
+        borderRadius: 8,
     }
 });
