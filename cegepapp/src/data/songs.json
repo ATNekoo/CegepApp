@@ -1,426 +1,258 @@
 [
-    {
-        "song_title": "Boom Boom Pow",
-        "artist_name": "The Black Eyed Peas",
-        "album_name": "The E.N.D.",
-        "genre": "pop",
-        "release_date": 2009,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Footprints",
-        "artist_name": "Wayne Shorter Quartet",
-        "album_name": "Footprints Live!",
-        "genre": "jazz",
-        "release_date": 2000,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "The Gate",
-        "artist_name": "Kurt Elling",
-        "album_name": "The Gate",
-        "genre": "jazz",
-        "release_date": 2011,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Poker Face",
-        "artist_name": "Lady Gaga",
-        "album_name": "The Fame",
-        "genre": "pop",
-        "release_date": 2009,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "The House That Built Me",
-        "artist_name": "Miranda Lambert",
-        "album_name": "Revolution",
-        "genre": "country",
-        "release_date": 2010,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "More Than a Memory",
-        "artist_name": "Garth Brooks",
-        "album_name": "The Ultimate Hits",
-        "genre": "country",
-        "release_date": 2007,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Hypnotize",
-        "artist_name": "The Notorious B.I.G.",
-        "album_name": "Life After Death",
-        "genre": "hip hop",
-        "release_date": 1997,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Meet in the Middle",
-        "artist_name": "Diamond Rio",
-        "album_name": "Close to the Edge",
-        "genre": "country",
-        "release_date": 1991,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "The In Crowd",
-        "artist_name": "Ramsey Lewis Trio",
-        "album_name": "The In Crowd",
-        "genre": "jazz",
-        "release_date": 2000,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Accelerando",
-        "artist_name": "Vijay Iyer Trio",
-        "album_name": "Accelerando",
-        "genre": "jazz",
-        "release_date": 2012,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "My Favorite Things",
-        "artist_name": "John Coltrane",
-        "album_name": "My Favorite Things",
-        "genre": "jazz",
-        "release_date": 1961,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Runaway Train",
-        "artist_name": "Soul Asylum",
-        "album_name": "Grave Dancers Union",
-        "genre": "rock",
-        "release_date": 1993,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Scar Tissue",
-        "artist_name": "Red Hot Chili Peppers",
-        "album_name": "Californication",
-        "genre": "rock",
-        "release_date": 1999,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Call Me Maybe",
-        "artist_name": "Carly Rae Jepsen",
-        "album_name": "Kiss",
-        "genre": "pop",
-        "release_date": 2012,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Candy Shop",
-        "artist_name": "50 Cent feat. Olivia",
-        "album_name": "The Massacre",
-        "genre": "hip hop",
-        "release_date": 2005,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "I Will Always Love You",
-        "artist_name": "Whitney Houston",
-        "album_name": "The Bodyguard",
-        "genre": "pop",
-        "release_date": 1993,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Pump It Up",
-        "artist_name": "Elvis Costello",
-        "album_name": "My Aim Is True",
-        "genre": "rock",
-        "release_date": 2011,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "More Than Words",
-        "artist_name": "Extreme",
-        "album_name": "Pornograffitti",
-        "genre": "pop",
-        "release_date": 1991,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Empire State of Mind",
-        "artist_name": "Jay-Z feat. Alicia Keys",
-        "album_name": "The Blueprint 3",
-        "genre": "hip hop",
-        "release_date": 2010,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "I Kissed a Girl",
-        "artist_name": "Katy Perry",
-        "album_name": "One of the Boys",
-        "genre": "pop",
-        "release_date": 2008,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Low",
-        "artist_name": "Flo Rida feat. T-Pain",
-        "album_name": "Mail on Sunday",
-        "genre": "hip hop",
-        "release_date": 2010,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "C.R.E.A.M.",
-        "artist_name": "Wu-Tang Clan",
-        "album_name": "Enter the Wu-Tang (36 Chambers)",
-        "genre": "hip hop",
-        "release_date": 1993,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "It's Your Love",
-        "artist_name": "Tim McGraw feat. Faith Hill",
-        "album_name": "Everywhere",
-        "genre": "country",
-        "release_date": 1996,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "End of the Road",
-        "artist_name": "Boyz II Men",
-        "album_name": "Cooleyhighharmony",
-        "genre": "pop",
-        "release_date": 1992,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Iris",
-        "artist_name": "Goo Goo Dolls",
-        "album_name": "Dizzy Up the Girl",
-        "genre": "rock",
-        "release_date": 1998,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Rapper's Delight",
-        "artist_name": "The Sugarhill Gang",
-        "album_name": "Rapper's Delight",
-        "genre": "hip hop",
-        "release_date": 1979,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Wonderwall",
-        "artist_name": "Oasis",
-        "album_name": "(What's the Story) Morning Glory?",
-        "genre": "rock",
-        "release_date": 1995,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "I Don't Want This Night to End",
-        "artist_name": "Luke Bryan",
-        "album_name": "Tailgates & Tanlines",
-        "genre": "country",
-        "release_date": 2011,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "I Swear",
-        "artist_name": "John Michael Montgomery",
-        "album_name": "Kickin' It Up",
-        "genre": "country",
-        "release_date": 1994,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "November Rain",
-        "artist_name": "Guns N' Roses",
-        "album_name": "Use Your Illusion I",
-        "genre": "rock",
-        "release_date": 1992,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "No News",
-        "artist_name": "Lonestar",
-        "album_name": "Lonestar",
-        "genre": "country",
-        "release_date": 1996,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Jump Around",
-        "artist_name": "House of Pain",
-        "album_name": "House of Pain",
-        "genre": "hip hop",
-        "release_date": 1992,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Gangsta's Paradise",
-        "artist_name": "Coolio feat. L.V.",
-        "album_name": "Gangsta's Paradise",
-        "genre": "hip hop",
-        "release_date": 1995,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "That's the Way",
-        "artist_name": "Jo Dee Messina",
-        "album_name": "I'm Alright",
-        "genre": "country",
-        "release_date": 1998,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Macarena",
-        "artist_name": "Damso",
-        "album_name": "Ipséité",
-        "genre": "hip hop",
-        "release_date": 2017,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Black Hole Sun",
-        "artist_name": "Soundgarden",
-        "album_name": "Superunknown",
-        "genre": "rock",
-        "release_date": 1994,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Chattahoochee",
-        "artist_name": "Alan Jackson",
-        "album_name": "A Lot About Livin' (And a Little 'bout Love)",
-        "genre": "country",
-        "release_date": 1993,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Best I Ever Had",
-        "artist_name": "Drake",
-        "album_name": "So Far Gone",
-        "genre": "hip hop",
-        "release_date": 2009,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Ms. Jackson",
-        "artist_name": "OutKast",
-        "album_name": "Stankonia",
-        "genre": "hip hop",
-        "release_date": 2000,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Yeah!",
-        "artist_name": "Usher feat. Lil Jon & Ludacris",
-        "album_name": "Confessions",
-        "genre": "hip hop",
-        "release_date": 2004,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Ambitionz Az a Ridah",
-        "artist_name": "2Pac",
-        "album_name": "All Eyez on Me",
-        "genre": "hip hop",
-        "release_date": 1996,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "A Wonderful World",
-        "artist_name": "Tony Bennett & k.d. lang",
-        "album_name": "A Wonderful World",
-        "genre": "jazz",
-        "release_date": 2002,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Good Morning Susie Soho",
-        "artist_name": "Esbjörn Svensson Trio",
-        "album_name": "Good Morning Susie Soho",
-        "genre": "jazz",
-        "release_date": 2000,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Parents Just Don't Understand",
-        "artist_name": "DJ Jazzy Jeff & The Fresh Prince",
-        "album_name": "Rock the House",
-        "genre": "hip hop",
-        "release_date": 1986,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Lollipop",
-        "artist_name": "Lil Wayne feat. Static Major",
-        "album_name": "Tha Carter III",
-        "genre": "hip hop",
-        "release_date": 2008,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "If I Could Make a Living",
-        "artist_name": "Clay Walker",
-        "album_name": "If I Could Make a Living",
-        "genre": "country",
-        "release_date": 1994,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "A Little Love",
-        "artist_name": "Juice Newton",
-        "album_name": "A Little Love",
-        "genre": "pop",
-        "release_date": 2008,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Basket Case",
-        "artist_name": "Green Day",
-        "album_name": "Dookie",
-        "genre": "rock",
-        "release_date": 1993,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "J'aime Bien!",
-        "artist_name": "Josman",
-        "album_name": "J.O.$",
-        "genre": "hip hop",
-        "release_date": 2019,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "MEGATRON",
-        "artist_name": "Laylow",
-        "album_name": "Trinity",
-        "genre": "hip hop",
-        "release_date": 2020,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "Feu de Bois",
-        "artist_name": "Damso",
-        "album_name": "Lithopédion",
-        "genre": "hip hop",
-        "release_date": 2018,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "AFFRANCHIS",
-        "artist_name": "Josman",
-        "album_name": "Memoria",
-        "genre": "hip hop",
-        "release_date": 2022,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    },
-    {
-        "song_title": "SPECIAL",
-        "artist_name": "Laylow feat. Nekfeu & Fousheé",
-        "album_name": "L'Étrange Histoire de Mr. Anderson",
-        "genre": "hip hop",
-        "release_date": 2021,
-        "image_link": "https://genius.com/album_cover_arts/238163"
-    }
+  {
+    "id": 1,
+    "song_title": "Shape of You",
+    "artist_name": "Ed Sheeran",
+    "album_name": "÷ (Divide)",
+    "genre": "pop",
+    "release_date": 2017
+  },
+  {
+    "id": 2,
+    "song_title": "So What",
+    "artist_name": "Miles Davis",
+    "album_name": "Kind of Blue",
+    "genre": "jazz",
+    "release_date": 1959
+  },
+  {
+    "id": 3,
+    "song_title": "Take Five",
+    "artist_name": "Dave Brubeck",
+    "album_name": "Time Out",
+    "genre": "jazz",
+    "release_date": 1959
+  },
+  {
+    "id": 4,
+    "song_title": "Bad Guy",
+    "artist_name": "Billie Eilish",
+    "album_name": "When We All Fall Asleep, Where Do We Go?",
+    "genre": "pop",
+    "release_date": 2019
+  },
+  {
+    "id": 5,
+    "song_title": "Jolene",
+    "artist_name": "Dolly Parton",
+    "album_name": "Jolene",
+    "genre": "country",
+    "release_date": 1974
+  },
+  {
+    "id": 6,
+    "song_title": "Ring of Fire",
+    "artist_name": "Johnny Cash",
+    "album_name": "Ring of Fire: The Best of Johnny Cash",
+    "genre": "country",
+    "release_date": 1963
+  },
+  {
+    "id": 7,
+    "song_title": "Lose Yourself",
+    "artist_name": "Eminem",
+    "album_name": "8 Mile Soundtrack",
+    "genre": "hip hop",
+    "release_date": 2002
+  },
+  {
+    "id": 8,
+    "song_title": "Nuthin' But a 'G' Thang",
+    "artist_name": "Dr. Dre",
+    "album_name": "The Chronic",
+    "genre": "hip hop",
+    "release_date": 1992
+  },
+  {
+    "id": 9,
+    "song_title": "Smells Like Teen Spirit",
+    "artist_name": "Nirvana",
+    "album_name": "Nevermind",
+    "genre": "rock",
+    "release_date": 1991
+  },
+  {
+    "id": 10,
+    "song_title": "Hotel California",
+    "artist_name": "Eagles",
+    "album_name": "Hotel California",
+    "genre": "rock",
+    "release_date": 1976
+  },
+  {
+    "id": 11,
+    "song_title": "Billie Jean",
+    "artist_name": "Michael Jackson",
+    "album_name": "Thriller",
+    "genre": "pop",
+    "release_date": 1982
+  },
+  {
+    "id": 12,
+    "song_title": "Respect",
+    "artist_name": "Aretha Franklin",
+    "album_name": "I Never Loved a Man the Way I Love You",
+    "genre": "soul",
+    "release_date": 1967
+  },
+  {
+    "id": 13,
+    "song_title": "All of Me",
+    "artist_name": "John Legend",
+    "album_name": "Love in the Future",
+    "genre": "R&B",
+    "release_date": 2013
+  },
+  {
+    "id": 14,
+    "song_title": "Uptown Funk",
+    "artist_name": "Mark Ronson ft. Bruno Mars",
+    "album_name": "Uptown Special",
+    "genre": "funk",
+    "release_date": 2014
+  },
+  {
+    "id": 15,
+    "song_title": "Hey Jude",
+    "artist_name": "The Beatles",
+    "album_name": "Hey Jude",
+    "genre": "rock",
+    "release_date": 1968
+  },
+  {
+    "id": 16,
+    "song_title": "Crazy in Love",
+    "artist_name": "Beyoncé ft. Jay-Z",
+    "album_name": "Dangerously in Love",
+    "genre": "R&B",
+    "release_date": 2003
+  },
+  {
+    "id": 17,
+    "song_title": "Back in Black",
+    "artist_name": "AC/DC",
+    "album_name": "Back in Black",
+    "genre": "rock",
+    "release_date": 1980
+  },
+  {
+    "id": 18,
+    "song_title": "Humble",
+    "artist_name": "Kendrick Lamar",
+    "album_name": "DAMN.",
+    "genre": "hip hop",
+    "release_date": 2017
+  },
+  {
+    "id": 19,
+    "song_title": "Thinking Out Loud",
+    "artist_name": "Ed Sheeran",
+    "album_name": "x (Multiply)",
+    "genre": "pop",
+    "release_date": 2014
+  },
+  {
+    "id": 20,
+    "song_title": "Purple Rain",
+    "artist_name": "Prince",
+    "album_name": "Purple Rain",
+    "genre": "rock",
+    "release_date": 1984
+  },
+  {
+    "id": 21,
+    "song_title": "Rolling in the Deep",
+    "artist_name": "Adele",
+    "album_name": "21",
+    "genre": "pop",
+    "release_date": 2010
+  },
+  {
+    "id": 22,
+    "song_title": "Superstition",
+    "artist_name": "Stevie Wonder",
+    "album_name": "Talking Book",
+    "genre": "funk",
+    "release_date": 1972
+  },
+  {
+    "id": 23,
+    "song_title": "I Will Always Love You",
+    "artist_name": "Whitney Houston",
+    "album_name": "The Bodyguard",
+    "genre": "pop",
+    "release_date": 1992
+  },
+  {
+    "id": 24,
+    "song_title": "All Along the Watchtower",
+    "artist_name": "Jimi Hendrix",
+    "album_name": "Electric Ladyland",
+    "genre": "rock",
+    "release_date": 1968
+  },
+  {
+    "id": 25,
+    "song_title": "Lose Control",
+    "artist_name": "Missy Elliott",
+    "album_name": "The Cookbook",
+    "genre": "hip hop",
+    "release_date": 2005
+  },
+  {
+    "id": 26,
+    "song_title": "What a Wonderful World",
+    "artist_name": "Louis Armstrong",
+    "album_name": "What a Wonderful World",
+    "genre": "jazz",
+    "release_date": 1967
+  },
+  {
+    "id": 27,
+    "song_title": "Take On Me",
+    "artist_name": "a-ha",
+    "album_name": "Hunting High and Low",
+    "genre": "pop",
+    "release_date": 1985
+  },
+  {
+    "id": 28,
+    "song_title": "Sweet Child O' Mine",
+    "artist_name": "Guns N' Roses",
+    "album_name": "Appetite for Destruction",
+    "genre": "rock",
+    "release_date": 1987
+  },
+  {
+    "id": 29,
+    "song_title": "Alright",
+    "artist_name": "Kendrick Lamar",
+    "album_name": "To Pimp a Butterfly",
+    "genre": "hip hop",
+    "release_date": 2015
+  },
+  {
+    "id": 30,
+    "song_title": "Respect Yourself",
+    "artist_name": "The Staple Singers",
+    "album_name": "Be Altitude: Respect Yourself",
+    "genre": "soul",
+    "release_date": 1971
+  },
+  {
+    "id": 31,
+    "song_title": "No Woman, No Cry",
+    "artist_name": "Bob Marley",
+    "album_name": "Natty Dread",
+    "genre": "reggae",
+    "release_date": 1974
+  },
+  {
+    "id": 32,
+    "song_title": "Thriller",
+    "artist_name": "Michael Jackson",
+    "album_name": "Thriller",
+    "genre": "pop",
+    "release_date": 1982
+  }
 ]

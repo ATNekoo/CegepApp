@@ -3,9 +3,10 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import HomeScreen from "../screens/HomeScreen";
+import Playlists from "../screens/Playlists";
 import DetailsScreen from "../screens/DetailsScreen";
 import SettingsScreen from "../screens/SettingsScreen";
-
+import ChatbotScreen from "../screens/ChatbotScreen";
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
 
@@ -19,12 +20,12 @@ function Tabs() {
       />
       <Tab.Screen
       name="Playlist"
-      component={HomeScreen}
+      component={Playlists}
       options={{ title: "Playlist" }}
       />
       <Tab.Screen
         name="Chatbot"
-        component={HomeScreen}
+        component={ChatbotScreen}
         options={{ title: "Chatbot" }}
       />
       <Tab.Screen
