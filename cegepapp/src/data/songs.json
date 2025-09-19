@@ -1,352 +1,258 @@
 [
-    {
-        "song_title": "eu magna vulputate",
-        "artist_name": "Kissie Haselgrove",
-        "album_name": "hac habitasse",
-        "genre": "pop",
-        "release_date": 2009
-    },
-    {
-        "song_title": "sit amet justo morbi ut",
-        "artist_name": "Torey Gregorio",
-        "album_name": "morbi porttitor lorem",
-        "genre": "jazz",
-        "release_date": 2000
-    },
-    {
-        "song_title": "eu orci mauris lacinia sapien",
-        "artist_name": "Shelton Mattimoe",
-        "album_name": "lacinia erat vestibulum sed",
-        "genre": "jazz",
-        "release_date": 2011
-    },
-    {
-        "song_title": "in felis eu sapien",
-        "artist_name": "Cloe Lownie",
-        "album_name": "nisl duis bibendum felis",
-        "genre": "pop",
-        "release_date": 2009
-    },
-    {
-        "song_title": "massa donec dapibus duis",
-        "artist_name": "Arie Mockes",
-        "album_name": "non velit nec",
-        "genre": "country",
-        "release_date": 2010
-    },
-    {
-        "song_title": "dolor",
-        "artist_name": "Shermy Carthy",
-        "album_name": "nonummy maecenas tincidunt lacus",
-        "genre": "country",
-        "release_date": 2007
-    },
-    {
-        "song_title": "orci",
-        "artist_name": "Patrice Morrow",
-        "album_name": "maecenas tristique",
-        "genre": "hip hop",
-        "release_date": 1997
-    },
-    {
-        "song_title": "cubilia curae duis faucibus",
-        "artist_name": "Idell Duffill",
-        "album_name": "velit",
-        "genre": "country",
-        "release_date": 1991
-    },
-    {
-        "song_title": "sit",
-        "artist_name": "Roshelle Sollime",
-        "album_name": "diam cras pellentesque",
-        "genre": "jazz",
-        "release_date": 2000
-    },
-    {
-        "song_title": "donec semper",
-        "artist_name": "Ina Boice",
-        "album_name": "eget nunc donec",
-        "genre": "jazz",
-        "release_date": 2012
-    },
-    {
-        "song_title": "auctor",
-        "artist_name": "Nevil Nowlan",
-        "album_name": "odio cras mi",
-        "genre": "jazz",
-        "release_date": 1961
-    },
-    {
-        "song_title": "lacus at velit vivamus vel",
-        "artist_name": "Harriot Gillson",
-        "album_name": "neque vestibulum eget vulputate",
-        "genre": "rock",
-        "release_date": 1993
-    },
-    {
-        "song_title": "pellentesque ultrices",
-        "artist_name": "Ruthe Ockenden",
-        "album_name": "dapibus augue",
-        "genre": "rock",
-        "release_date": 1999
-    },
-    {
-        "song_title": "integer a nibh",
-        "artist_name": "Gabriello Studdal",
-        "album_name": "erat eros viverra eget",
-        "genre": "pop",
-        "release_date": 2012
-    },
-    {
-        "song_title": "velit id pretium iaculis diam",
-        "artist_name": "Charin Koppeck",
-        "album_name": "lacinia aenean sit",
-        "genre": "hip hop",
-        "release_date": 2005
-    },
-    {
-        "song_title": "orci luctus et ultrices posuere",
-        "artist_name": "Meridel Willis",
-        "album_name": "massa id nisl",
-        "genre": "pop",
-        "release_date": 1993
-    },
-    {
-        "song_title": "pulvinar nulla pede ullamcorper augue",
-        "artist_name": "Halsey Paternoster",
-        "album_name": "integer",
-        "genre": "rock",
-        "release_date": 2011
-    },
-    {
-        "song_title": "velit donec diam neque",
-        "artist_name": "Taddeo Emanulsson",
-        "album_name": "potenti in eleifend quam",
-        "genre": "pop",
-        "release_date": 1991
-    },
-    {
-        "song_title": "sapien urna pretium nisl",
-        "artist_name": "Harmonia Johnson",
-        "album_name": "velit donec diam neque",
-        "genre": "hip hop",
-        "release_date": 2010
-    },
-    {
-        "song_title": "ridiculus mus vivamus",
-        "artist_name": "Elsa Maher",
-        "album_name": "venenatis tristique fusce",
-        "genre": "pop",
-        "release_date": 2008
-    },
-    {
-        "song_title": "mauris morbi non lectus aliquam",
-        "artist_name": "Albina Flaunier",
-        "album_name": "aliquet",
-        "genre": "hip hop",
-        "release_date": 2010
-    },
-    {
-        "song_title": "cras mi pede malesuada in",
-        "artist_name": "Sioux Osment",
-        "album_name": "accumsan",
-        "genre": "jazz",
-        "release_date": 1972
-    },
-    {
-        "song_title": "nisi vulputate nonummy maecenas",
-        "artist_name": "Ford Kinkead",
-        "album_name": "diam erat fermentum",
-        "genre": "country",
-        "release_date": 1996
-    },
-    {
-        "song_title": "curabitur",
-        "artist_name": "Merell Saffrin",
-        "album_name": "sapien a",
-        "genre": "pop",
-        "release_date": 1998
-    },
-    {
-        "song_title": "elit",
-        "artist_name": "Ahmed Kenelin",
-        "album_name": "risus",
-        "genre": "jazz",
-        "release_date": 1998
-    },
-    {
-        "song_title": "varius ut blandit non",
-        "artist_name": "Ardyce Sherville",
-        "album_name": "sed ante",
-        "genre": "hip hop",
-        "release_date": 1975
-    },
-    {
-        "song_title": "donec posuere",
-        "artist_name": "Reina Bachelor",
-        "album_name": "est donec odio justo",
-        "genre": "rock",
-        "release_date": 1996
-    },
-    {
-        "song_title": "integer a nibh in",
-        "artist_name": "Bellanca Itzkovwich",
-        "album_name": "tortor risus",
-        "genre": "country",
-        "release_date": 2008
-    },
-    {
-        "song_title": "vitae",
-        "artist_name": "Ted Snewin",
-        "album_name": "nam congue",
-        "genre": "pop",
-        "release_date": 1993
-    },
-    {
-        "song_title": "est quam pharetra magna",
-        "artist_name": "Monica Nissle",
-        "album_name": "proin leo odio",
-        "genre": "rock",
-        "release_date": 1994
-    },
-    {
-        "song_title": "odio condimentum id",
-        "artist_name": "Nikoletta Dorie",
-        "album_name": "id lobortis convallis",
-        "genre": "country",
-        "release_date": 2000
-    },
-    {
-        "song_title": "accumsan felis ut at",
-        "artist_name": "Callida Lemery",
-        "album_name": "augue luctus tincidunt",
-        "genre": "rock",
-        "release_date": 1984
-    },
-    {
-        "song_title": "ligula in lacus",
-        "artist_name": "Rosene Orriss",
-        "album_name": "quam sapien varius ut",
-        "genre": "rock",
-        "release_date": 1995
-    },
-    {
-        "song_title": "nulla tempus vivamus in",
-        "artist_name": "Jessika Petel",
-        "album_name": "nulla",
-        "genre": "country",
-        "release_date": 1998
-    },
-    {
-        "song_title": "convallis morbi",
-        "artist_name": "Sheela De Cruz",
-        "album_name": "sed",
-        "genre": "country",
-        "release_date": 2006
-    },
-    {
-        "song_title": "pulvinar sed",
-        "artist_name": "Hanna Adriaens",
-        "album_name": "felis eu",
-        "genre": "rock",
-        "release_date": 1995
-    },
-    {
-        "song_title": "in",
-        "artist_name": "Merola Fronks",
-        "album_name": "pellentesque quisque",
-        "genre": "country",
-        "release_date": 1984
-    },
-    {
-        "song_title": "velit nec nisi vulputate nonummy",
-        "artist_name": "Tracie Cowterd",
-        "album_name": "luctus et",
-        "genre": "hip hop",
-        "release_date": 2009
-    },
-    {
-        "song_title": "vivamus metus",
-        "artist_name": "Kellyann Rushmere",
-        "album_name": "molestie lorem",
-        "genre": "hip hop",
-        "release_date": 2000
-    },
-    {
-        "song_title": "ac consequat metus sapien ut",
-        "artist_name": "Amargo McGilvray",
-        "album_name": "sed augue aliquam erat",
-        "genre": "hip hop",
-        "release_date": 2004
-    },
-    {
-        "song_title": "sapien",
-        "artist_name": "Raddie Von Helmholtz",
-        "album_name": "interdum",
-        "genre": "hip hop",
-        "release_date": 2010
-    },
-    {
-        "song_title": "sed vestibulum",
-        "artist_name": "Roanne Giorgione",
-        "album_name": "nisi at",
-        "genre": "jazz",
-        "release_date": 2001
-    },
-    {
-        "song_title": "habitasse platea dictumst morbi",
-        "artist_name": "Constantina Whitloe",
-        "album_name": "volutpat sapien arcu",
-        "genre": "jazz",
-        "release_date": 2000
-    },
-    {
-        "song_title": "pede venenatis non sodales sed",
-        "artist_name": "Justin Forgan",
-        "album_name": "eu interdum eu tincidunt",
-        "genre": "hip hop",
-        "release_date": 1986
-    },
-    {
-        "song_title": "augue",
-        "artist_name": "Fanya Rusk",
-        "album_name": "eget semper rutrum nulla",
-        "genre": "hip hop",
-        "release_date": 2008
-    },
-    {
-        "song_title": "mauris ullamcorper purus sit",
-        "artist_name": "Barbette Prest",
-        "album_name": "ante",
-        "genre": "hip hop",
-        "release_date": 1984
-    },
-    {
-        "song_title": "placerat ante nulla justo aliquam",
-        "artist_name": "Horatius Haydney",
-        "album_name": "donec dapibus duis",
-        "genre": "country",
-        "release_date": 1994
-    },
-    {
-        "song_title": "aliquet massa id",
-        "artist_name": "Sadie Leward",
-        "album_name": "dui vel",
-        "genre": "pop",
-        "release_date": 2008
-    },
-    {
-        "song_title": "aliquet",
-        "artist_name": "Beatrice Wannell",
-        "album_name": "bibendum",
-        "genre": "rock",
-        "release_date": 1993
-    },
-    {
-        "song_title": "elementum in hac",
-        "artist_name": "Willette Densun",
-        "album_name": "tempor convallis nulla",
-        "genre": "jazz",
-        "release_date": 2002
-    }
+  {
+    "id": 1,
+    "song_title": "Shape of You",
+    "artist_name": "Ed Sheeran",
+    "album_name": "÷ (Divide)",
+    "genre": "pop",
+    "release_date": 2017
+  },
+  {
+    "id": 2,
+    "song_title": "So What",
+    "artist_name": "Miles Davis",
+    "album_name": "Kind of Blue",
+    "genre": "jazz",
+    "release_date": 1959
+  },
+  {
+    "id": 3,
+    "song_title": "Take Five",
+    "artist_name": "Dave Brubeck",
+    "album_name": "Time Out",
+    "genre": "jazz",
+    "release_date": 1959
+  },
+  {
+    "id": 4,
+    "song_title": "Bad Guy",
+    "artist_name": "Billie Eilish",
+    "album_name": "When We All Fall Asleep, Where Do We Go?",
+    "genre": "pop",
+    "release_date": 2019
+  },
+  {
+    "id": 5,
+    "song_title": "Jolene",
+    "artist_name": "Dolly Parton",
+    "album_name": "Jolene",
+    "genre": "country",
+    "release_date": 1974
+  },
+  {
+    "id": 6,
+    "song_title": "Ring of Fire",
+    "artist_name": "Johnny Cash",
+    "album_name": "Ring of Fire: The Best of Johnny Cash",
+    "genre": "country",
+    "release_date": 1963
+  },
+  {
+    "id": 7,
+    "song_title": "Lose Yourself",
+    "artist_name": "Eminem",
+    "album_name": "8 Mile Soundtrack",
+    "genre": "hip hop",
+    "release_date": 2002
+  },
+  {
+    "id": 8,
+    "song_title": "Nuthin' But a 'G' Thang",
+    "artist_name": "Dr. Dre",
+    "album_name": "The Chronic",
+    "genre": "hip hop",
+    "release_date": 1992
+  },
+  {
+    "id": 9,
+    "song_title": "Smells Like Teen Spirit",
+    "artist_name": "Nirvana",
+    "album_name": "Nevermind",
+    "genre": "rock",
+    "release_date": 1991
+  },
+  {
+    "id": 10,
+    "song_title": "Hotel California",
+    "artist_name": "Eagles",
+    "album_name": "Hotel California",
+    "genre": "rock",
+    "release_date": 1976
+  },
+  {
+    "id": 11,
+    "song_title": "Billie Jean",
+    "artist_name": "Michael Jackson",
+    "album_name": "Thriller",
+    "genre": "pop",
+    "release_date": 1982
+  },
+  {
+    "id": 12,
+    "song_title": "Respect",
+    "artist_name": "Aretha Franklin",
+    "album_name": "I Never Loved a Man the Way I Love You",
+    "genre": "soul",
+    "release_date": 1967
+  },
+  {
+    "id": 13,
+    "song_title": "All of Me",
+    "artist_name": "John Legend",
+    "album_name": "Love in the Future",
+    "genre": "R&B",
+    "release_date": 2013
+  },
+  {
+    "id": 14,
+    "song_title": "Uptown Funk",
+    "artist_name": "Mark Ronson ft. Bruno Mars",
+    "album_name": "Uptown Special",
+    "genre": "funk",
+    "release_date": 2014
+  },
+  {
+    "id": 15,
+    "song_title": "Hey Jude",
+    "artist_name": "The Beatles",
+    "album_name": "Hey Jude",
+    "genre": "rock",
+    "release_date": 1968
+  },
+  {
+    "id": 16,
+    "song_title": "Crazy in Love",
+    "artist_name": "Beyoncé ft. Jay-Z",
+    "album_name": "Dangerously in Love",
+    "genre": "R&B",
+    "release_date": 2003
+  },
+  {
+    "id": 17,
+    "song_title": "Back in Black",
+    "artist_name": "AC/DC",
+    "album_name": "Back in Black",
+    "genre": "rock",
+    "release_date": 1980
+  },
+  {
+    "id": 18,
+    "song_title": "Humble",
+    "artist_name": "Kendrick Lamar",
+    "album_name": "DAMN.",
+    "genre": "hip hop",
+    "release_date": 2017
+  },
+  {
+    "id": 19,
+    "song_title": "Thinking Out Loud",
+    "artist_name": "Ed Sheeran",
+    "album_name": "x (Multiply)",
+    "genre": "pop",
+    "release_date": 2014
+  },
+  {
+    "id": 20,
+    "song_title": "Purple Rain",
+    "artist_name": "Prince",
+    "album_name": "Purple Rain",
+    "genre": "rock",
+    "release_date": 1984
+  },
+  {
+    "id": 21,
+    "song_title": "Rolling in the Deep",
+    "artist_name": "Adele",
+    "album_name": "21",
+    "genre": "pop",
+    "release_date": 2010
+  },
+  {
+    "id": 22,
+    "song_title": "Superstition",
+    "artist_name": "Stevie Wonder",
+    "album_name": "Talking Book",
+    "genre": "funk",
+    "release_date": 1972
+  },
+  {
+    "id": 23,
+    "song_title": "I Will Always Love You",
+    "artist_name": "Whitney Houston",
+    "album_name": "The Bodyguard",
+    "genre": "pop",
+    "release_date": 1992
+  },
+  {
+    "id": 24,
+    "song_title": "All Along the Watchtower",
+    "artist_name": "Jimi Hendrix",
+    "album_name": "Electric Ladyland",
+    "genre": "rock",
+    "release_date": 1968
+  },
+  {
+    "id": 25,
+    "song_title": "Lose Control",
+    "artist_name": "Missy Elliott",
+    "album_name": "The Cookbook",
+    "genre": "hip hop",
+    "release_date": 2005
+  },
+  {
+    "id": 26,
+    "song_title": "What a Wonderful World",
+    "artist_name": "Louis Armstrong",
+    "album_name": "What a Wonderful World",
+    "genre": "jazz",
+    "release_date": 1967
+  },
+  {
+    "id": 27,
+    "song_title": "Take On Me",
+    "artist_name": "a-ha",
+    "album_name": "Hunting High and Low",
+    "genre": "pop",
+    "release_date": 1985
+  },
+  {
+    "id": 28,
+    "song_title": "Sweet Child O' Mine",
+    "artist_name": "Guns N' Roses",
+    "album_name": "Appetite for Destruction",
+    "genre": "rock",
+    "release_date": 1987
+  },
+  {
+    "id": 29,
+    "song_title": "Alright",
+    "artist_name": "Kendrick Lamar",
+    "album_name": "To Pimp a Butterfly",
+    "genre": "hip hop",
+    "release_date": 2015
+  },
+  {
+    "id": 30,
+    "song_title": "Respect Yourself",
+    "artist_name": "The Staple Singers",
+    "album_name": "Be Altitude: Respect Yourself",
+    "genre": "soul",
+    "release_date": 1971
+  },
+  {
+    "id": 31,
+    "song_title": "No Woman, No Cry",
+    "artist_name": "Bob Marley",
+    "album_name": "Natty Dread",
+    "genre": "reggae",
+    "release_date": 1974
+  },
+  {
+    "id": 32,
+    "song_title": "Thriller",
+    "artist_name": "Michael Jackson",
+    "album_name": "Thriller",
+    "genre": "pop",
+    "release_date": 1982
+  }
 ]
