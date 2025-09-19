@@ -1,352 +1,426 @@
 [
     {
-        "song_title": "eu magna vulputate",
-        "artist_name": "Kissie Haselgrove",
-        "album_name": "hac habitasse",
+        "song_title": "Boom Boom Pow",
+        "artist_name": "The Black Eyed Peas",
+        "album_name": "The E.N.D.",
         "genre": "pop",
-        "release_date": 2009
+        "release_date": 2009,
+        "image_link": "a"
     },
     {
-        "song_title": "sit amet justo morbi ut",
-        "artist_name": "Torey Gregorio",
-        "album_name": "morbi porttitor lorem",
+        "song_title": "Footprints",
+        "artist_name": "Wayne Shorter Quartet",
+        "album_name": "Footprints Live!",
         "genre": "jazz",
-        "release_date": 2000
+        "release_date": 2000,
+        "image_link": "a"
     },
     {
-        "song_title": "eu orci mauris lacinia sapien",
-        "artist_name": "Shelton Mattimoe",
-        "album_name": "lacinia erat vestibulum sed",
+        "song_title": "The Gate",
+        "artist_name": "Kurt Elling",
+        "album_name": "The Gate",
         "genre": "jazz",
-        "release_date": 2011
+        "release_date": 2011,
+        "image_link": "a"
     },
     {
-        "song_title": "in felis eu sapien",
-        "artist_name": "Cloe Lownie",
-        "album_name": "nisl duis bibendum felis",
+        "song_title": "Poker Face",
+        "artist_name": "Lady Gaga",
+        "album_name": "The Fame",
         "genre": "pop",
-        "release_date": 2009
+        "release_date": 2009,
+        "image_link": "a"
     },
     {
-        "song_title": "massa donec dapibus duis",
-        "artist_name": "Arie Mockes",
-        "album_name": "non velit nec",
+        "song_title": "The House That Built Me",
+        "artist_name": "Miranda Lambert",
+        "album_name": "Revolution",
         "genre": "country",
-        "release_date": 2010
+        "release_date": 2010,
+        "image_link": "a"
     },
     {
-        "song_title": "dolor",
-        "artist_name": "Shermy Carthy",
-        "album_name": "nonummy maecenas tincidunt lacus",
+        "song_title": "More Than a Memory",
+        "artist_name": "Garth Brooks",
+        "album_name": "The Ultimate Hits",
         "genre": "country",
-        "release_date": 2007
+        "release_date": 2007,
+        "image_link": "a"
     },
     {
-        "song_title": "orci",
-        "artist_name": "Patrice Morrow",
-        "album_name": "maecenas tristique",
+        "song_title": "Hypnotize",
+        "artist_name": "The Notorious B.I.G.",
+        "album_name": "Life After Death",
         "genre": "hip hop",
-        "release_date": 1997
+        "release_date": 1997,
+        "image_link": "a"
     },
     {
-        "song_title": "cubilia curae duis faucibus",
-        "artist_name": "Idell Duffill",
-        "album_name": "velit",
+        "song_title": "Meet in the Middle",
+        "artist_name": "Diamond Rio",
+        "album_name": "Close to the Edge",
         "genre": "country",
-        "release_date": 1991
+        "release_date": 1991,
+        "image_link": "a"
     },
     {
-        "song_title": "sit",
-        "artist_name": "Roshelle Sollime",
-        "album_name": "diam cras pellentesque",
+        "song_title": "The In Crowd",
+        "artist_name": "Ramsey Lewis Trio",
+        "album_name": "The In Crowd",
         "genre": "jazz",
-        "release_date": 2000
+        "release_date": 2000,
+        "image_link": "a"
     },
     {
-        "song_title": "donec semper",
-        "artist_name": "Ina Boice",
-        "album_name": "eget nunc donec",
+        "song_title": "Accelerando",
+        "artist_name": "Vijay Iyer Trio",
+        "album_name": "Accelerando",
         "genre": "jazz",
-        "release_date": 2012
+        "release_date": 2012,
+        "image_link": "a"
     },
     {
-        "song_title": "auctor",
-        "artist_name": "Nevil Nowlan",
-        "album_name": "odio cras mi",
+        "song_title": "My Favorite Things",
+        "artist_name": "John Coltrane",
+        "album_name": "My Favorite Things",
         "genre": "jazz",
-        "release_date": 1961
+        "release_date": 1961,
+        "image_link": "a"
     },
     {
-        "song_title": "lacus at velit vivamus vel",
-        "artist_name": "Harriot Gillson",
-        "album_name": "neque vestibulum eget vulputate",
+        "song_title": "Runaway Train",
+        "artist_name": "Soul Asylum",
+        "album_name": "Grave Dancers Union",
         "genre": "rock",
-        "release_date": 1993
+        "release_date": 1993,
+        "image_link": "a"
     },
     {
-        "song_title": "pellentesque ultrices",
-        "artist_name": "Ruthe Ockenden",
-        "album_name": "dapibus augue",
+        "song_title": "Scar Tissue",
+        "artist_name": "Red Hot Chili Peppers",
+        "album_name": "Californication",
         "genre": "rock",
-        "release_date": 1999
+        "release_date": 1999,
+        "image_link": "a"
     },
     {
-        "song_title": "integer a nibh",
-        "artist_name": "Gabriello Studdal",
-        "album_name": "erat eros viverra eget",
+        "song_title": "Call Me Maybe",
+        "artist_name": "Carly Rae Jepsen",
+        "album_name": "Kiss",
         "genre": "pop",
-        "release_date": 2012
+        "release_date": 2012,
+        "image_link": "a"
     },
     {
-        "song_title": "velit id pretium iaculis diam",
-        "artist_name": "Charin Koppeck",
-        "album_name": "lacinia aenean sit",
+        "song_title": "Candy Shop",
+        "artist_name": "50 Cent feat. Olivia",
+        "album_name": "The Massacre",
         "genre": "hip hop",
-        "release_date": 2005
+        "release_date": 2005,
+        "image_link": "a"
     },
     {
-        "song_title": "orci luctus et ultrices posuere",
-        "artist_name": "Meridel Willis",
-        "album_name": "massa id nisl",
+        "song_title": "I Will Always Love You",
+        "artist_name": "Whitney Houston",
+        "album_name": "The Bodyguard",
         "genre": "pop",
-        "release_date": 1993
+        "release_date": 1993,
+        "image_link": "a"
     },
     {
-        "song_title": "pulvinar nulla pede ullamcorper augue",
-        "artist_name": "Halsey Paternoster",
-        "album_name": "integer",
+        "song_title": "Pump It Up",
+        "artist_name": "Elvis Costello",
+        "album_name": "My Aim Is True",
         "genre": "rock",
-        "release_date": 2011
+        "release_date": 2011,
+        "image_link": "a"
     },
     {
-        "song_title": "velit donec diam neque",
-        "artist_name": "Taddeo Emanulsson",
-        "album_name": "potenti in eleifend quam",
+        "song_title": "More Than Words",
+        "artist_name": "Extreme",
+        "album_name": "Pornograffitti",
         "genre": "pop",
-        "release_date": 1991
+        "release_date": 1991,
+        "image_link": "a"
     },
     {
-        "song_title": "sapien urna pretium nisl",
-        "artist_name": "Harmonia Johnson",
-        "album_name": "velit donec diam neque",
+        "song_title": "Empire State of Mind",
+        "artist_name": "Jay-Z feat. Alicia Keys",
+        "album_name": "The Blueprint 3",
         "genre": "hip hop",
-        "release_date": 2010
+        "release_date": 2010,
+        "image_link": "a"
     },
     {
-        "song_title": "ridiculus mus vivamus",
-        "artist_name": "Elsa Maher",
-        "album_name": "venenatis tristique fusce",
+        "song_title": "I Kissed a Girl",
+        "artist_name": "Katy Perry",
+        "album_name": "One of the Boys",
         "genre": "pop",
-        "release_date": 2008
+        "release_date": 2008,
+        "image_link": "a"
     },
     {
-        "song_title": "mauris morbi non lectus aliquam",
-        "artist_name": "Albina Flaunier",
-        "album_name": "aliquet",
+        "song_title": "Low",
+        "artist_name": "Flo Rida feat. T-Pain",
+        "album_name": "Mail on Sunday",
         "genre": "hip hop",
-        "release_date": 2010
+        "release_date": 2010,
+        "image_link": "a"
     },
     {
-        "song_title": "cras mi pede malesuada in",
-        "artist_name": "Sioux Osment",
-        "album_name": "accumsan",
+        "song_title": "C.R.E.A.M.",
+        "artist_name": "Wu-Tang Clan",
+        "album_name": "Enter the Wu-Tang (36 Chambers)",
+        "genre": "hip hop",
+        "release_date": 1993,
+        "image_link": "a"
+    },
+    {
+        "song_title": "It's Your Love",
+        "artist_name": "Tim McGraw feat. Faith Hill",
+        "album_name": "Everywhere",
+        "genre": "country",
+        "release_date": 1996,
+        "image_link": "a"
+    },
+    {
+        "song_title": "End of the Road",
+        "artist_name": "Boyz II Men",
+        "album_name": "Cooleyhighharmony",
+        "genre": "pop",
+        "release_date": 1992,
+        "image_link": "a"
+    },
+    {
+        "song_title": "Iris",
+        "artist_name": "Goo Goo Dolls",
+        "album_name": "Dizzy Up the Girl",
+        "genre": "rock",
+        "release_date": 1998,
+        "image_link": "a"
+    },
+    {
+        "song_title": "Rapper's Delight",
+        "artist_name": "The Sugarhill Gang",
+        "album_name": "Rapper's Delight",
+        "genre": "hip hop",
+        "release_date": 1979,
+        "image_link": "a"
+    },
+    {
+        "song_title": "Wonderwall",
+        "artist_name": "Oasis",
+        "album_name": "(What's the Story) Morning Glory?",
+        "genre": "rock",
+        "release_date": 1995,
+        "image_link": "a"
+    },
+    {
+        "song_title": "I Don't Want This Night to End",
+        "artist_name": "Luke Bryan",
+        "album_name": "Tailgates & Tanlines",
+        "genre": "country",
+        "release_date": 2011,
+        "image_link": "a"
+    },
+    {
+        "song_title": "I Swear",
+        "artist_name": "John Michael Montgomery",
+        "album_name": "Kickin' It Up",
+        "genre": "country",
+        "release_date": 1994,
+        "image_link": "a"
+    },
+    {
+        "song_title": "November Rain",
+        "artist_name": "Guns N' Roses",
+        "album_name": "Use Your Illusion I",
+        "genre": "rock",
+        "release_date": 1992,
+        "image_link": "a"
+    },
+    {
+        "song_title": "No News",
+        "artist_name": "Lonestar",
+        "album_name": "Lonestar",
+        "genre": "country",
+        "release_date": 1996,
+        "image_link": "a"
+    },
+    {
+        "song_title": "Jump Around",
+        "artist_name": "House of Pain",
+        "album_name": "House of Pain",
+        "genre": "hip hop",
+        "release_date": 1992,
+        "image_link": "a"
+    },
+    {
+        "song_title": "Gangsta's Paradise",
+        "artist_name": "Coolio feat. L.V.",
+        "album_name": "Gangsta's Paradise",
+        "genre": "hip hop",
+        "release_date": 1995,
+        "image_link": "a"
+    },
+    {
+        "song_title": "That's the Way",
+        "artist_name": "Jo Dee Messina",
+        "album_name": "I'm Alright",
+        "genre": "country",
+        "release_date": 1998,
+        "image_link": "a"
+    },
+    {
+        "song_title": "Macarena",
+        "artist_name": "Damso",
+        "album_name": "Ipséité",
+        "genre": "hip hop",
+        "release_date": 2017,
+        "image_link": "a"
+    },
+    {
+        "song_title": "Black Hole Sun",
+        "artist_name": "Soundgarden",
+        "album_name": "Superunknown",
+        "genre": "rock",
+        "release_date": 1994,
+        "image_link": "a"
+    },
+    {
+        "song_title": "Chattahoochee",
+        "artist_name": "Alan Jackson",
+        "album_name": "A Lot About Livin' (And a Little 'bout Love)",
+        "genre": "country",
+        "release_date": 1993,
+        "image_link": "a"
+    },
+    {
+        "song_title": "Best I Ever Had",
+        "artist_name": "Drake",
+        "album_name": "So Far Gone",
+        "genre": "hip hop",
+        "release_date": 2009,
+        "image_link": "a"
+    },
+    {
+        "song_title": "Ms. Jackson",
+        "artist_name": "OutKast",
+        "album_name": "Stankonia",
+        "genre": "hip hop",
+        "release_date": 2000,
+        "image_link": "a"
+    },
+    {
+        "song_title": "Yeah!",
+        "artist_name": "Usher feat. Lil Jon & Ludacris",
+        "album_name": "Confessions",
+        "genre": "hip hop",
+        "release_date": 2004,
+        "image_link": "a"
+    },
+    {
+        "song_title": "Ambitionz Az a Ridah",
+        "artist_name": "2Pac",
+        "album_name": "All Eyez on Me",
+        "genre": "hip hop",
+        "release_date": 1996,
+        "image_link": "a"
+    },
+    {
+        "song_title": "A Wonderful World",
+        "artist_name": "Tony Bennett & k.d. lang",
+        "album_name": "A Wonderful World",
         "genre": "jazz",
-        "release_date": 1972
+        "release_date": 2002,
+        "image_link": "a"
     },
     {
-        "song_title": "nisi vulputate nonummy maecenas",
-        "artist_name": "Ford Kinkead",
-        "album_name": "diam erat fermentum",
+        "song_title": "Good Morning Susie Soho",
+        "artist_name": "Esbjörn Svensson Trio",
+        "album_name": "Good Morning Susie Soho",
+        "genre": "jazz",
+        "release_date": 2000,
+        "image_link": "a"
+    },
+    {
+        "song_title": "Parents Just Don't Understand",
+        "artist_name": "DJ Jazzy Jeff & The Fresh Prince",
+        "album_name": "Rock the House",
+        "genre": "hip hop",
+        "release_date": 1986,
+        "image_link": "a"
+    },
+    {
+        "song_title": "Lollipop",
+        "artist_name": "Lil Wayne feat. Static Major",
+        "album_name": "Tha Carter III",
+        "genre": "hip hop",
+        "release_date": 2008,
+        "image_link": "a"
+    },
+    {
+        "song_title": "If I Could Make a Living",
+        "artist_name": "Clay Walker",
+        "album_name": "If I Could Make a Living",
         "genre": "country",
-        "release_date": 1996
+        "release_date": 1994,
+        "image_link": "a"
     },
     {
-        "song_title": "curabitur",
-        "artist_name": "Merell Saffrin",
-        "album_name": "sapien a",
+        "song_title": "A Little Love",
+        "artist_name": "Juice Newton",
+        "album_name": "A Little Love",
         "genre": "pop",
-        "release_date": 1998
+        "release_date": 2008,
+        "image_link": "a"
     },
     {
-        "song_title": "elit",
-        "artist_name": "Ahmed Kenelin",
-        "album_name": "risus",
-        "genre": "jazz",
-        "release_date": 1998
-    },
-    {
-        "song_title": "varius ut blandit non",
-        "artist_name": "Ardyce Sherville",
-        "album_name": "sed ante",
-        "genre": "hip hop",
-        "release_date": 1975
-    },
-    {
-        "song_title": "donec posuere",
-        "artist_name": "Reina Bachelor",
-        "album_name": "est donec odio justo",
+        "song_title": "Basket Case",
+        "artist_name": "Green Day",
+        "album_name": "Dookie",
         "genre": "rock",
-        "release_date": 1996
+        "release_date": 1993,
+        "image_link": "a"
     },
     {
-        "song_title": "integer a nibh in",
-        "artist_name": "Bellanca Itzkovwich",
-        "album_name": "tortor risus",
-        "genre": "country",
-        "release_date": 2008
-    },
-    {
-        "song_title": "vitae",
-        "artist_name": "Ted Snewin",
-        "album_name": "nam congue",
-        "genre": "pop",
-        "release_date": 1993
-    },
-    {
-        "song_title": "est quam pharetra magna",
-        "artist_name": "Monica Nissle",
-        "album_name": "proin leo odio",
-        "genre": "rock",
-        "release_date": 1994
-    },
-    {
-        "song_title": "odio condimentum id",
-        "artist_name": "Nikoletta Dorie",
-        "album_name": "id lobortis convallis",
-        "genre": "country",
-        "release_date": 2000
-    },
-    {
-        "song_title": "accumsan felis ut at",
-        "artist_name": "Callida Lemery",
-        "album_name": "augue luctus tincidunt",
-        "genre": "rock",
-        "release_date": 1984
-    },
-    {
-        "song_title": "ligula in lacus",
-        "artist_name": "Rosene Orriss",
-        "album_name": "quam sapien varius ut",
-        "genre": "rock",
-        "release_date": 1995
-    },
-    {
-        "song_title": "nulla tempus vivamus in",
-        "artist_name": "Jessika Petel",
-        "album_name": "nulla",
-        "genre": "country",
-        "release_date": 1998
-    },
-    {
-        "song_title": "convallis morbi",
-        "artist_name": "Sheela De Cruz",
-        "album_name": "sed",
-        "genre": "country",
-        "release_date": 2006
-    },
-    {
-        "song_title": "pulvinar sed",
-        "artist_name": "Hanna Adriaens",
-        "album_name": "felis eu",
-        "genre": "rock",
-        "release_date": 1995
-    },
-    {
-        "song_title": "in",
-        "artist_name": "Merola Fronks",
-        "album_name": "pellentesque quisque",
-        "genre": "country",
-        "release_date": 1984
-    },
-    {
-        "song_title": "velit nec nisi vulputate nonummy",
-        "artist_name": "Tracie Cowterd",
-        "album_name": "luctus et",
+        "song_title": "J'aime Bien!",
+        "artist_name": "Josman",
+        "album_name": "J.O.$",
         "genre": "hip hop",
-        "release_date": 2009
+        "release_date": 2019,
+        "image_link": "a"
     },
     {
-        "song_title": "vivamus metus",
-        "artist_name": "Kellyann Rushmere",
-        "album_name": "molestie lorem",
+        "song_title": "MEGATRON",
+        "artist_name": "Laylow",
+        "album_name": "Trinity",
         "genre": "hip hop",
-        "release_date": 2000
+        "release_date": 2020,
+        "image_link": "a"
     },
     {
-        "song_title": "ac consequat metus sapien ut",
-        "artist_name": "Amargo McGilvray",
-        "album_name": "sed augue aliquam erat",
+        "song_title": "Feu de Bois",
+        "artist_name": "Damso",
+        "album_name": "Lithopédion",
         "genre": "hip hop",
-        "release_date": 2004
+        "release_date": 2018,
+        "image_link": "a"
     },
     {
-        "song_title": "sapien",
-        "artist_name": "Raddie Von Helmholtz",
-        "album_name": "interdum",
+        "song_title": "AFFRANCHIS",
+        "artist_name": "Josman",
+        "album_name": "Memoria",
         "genre": "hip hop",
-        "release_date": 2010
+        "release_date": 2022,
+        "image_link": "a"
     },
     {
-        "song_title": "sed vestibulum",
-        "artist_name": "Roanne Giorgione",
-        "album_name": "nisi at",
-        "genre": "jazz",
-        "release_date": 2001
-    },
-    {
-        "song_title": "habitasse platea dictumst morbi",
-        "artist_name": "Constantina Whitloe",
-        "album_name": "volutpat sapien arcu",
-        "genre": "jazz",
-        "release_date": 2000
-    },
-    {
-        "song_title": "pede venenatis non sodales sed",
-        "artist_name": "Justin Forgan",
-        "album_name": "eu interdum eu tincidunt",
+        "song_title": "SPECIAL",
+        "artist_name": "Laylow feat. Nekfeu & Fousheé",
+        "album_name": "L'Étrange Histoire de Mr. Anderson",
         "genre": "hip hop",
-        "release_date": 1986
-    },
-    {
-        "song_title": "augue",
-        "artist_name": "Fanya Rusk",
-        "album_name": "eget semper rutrum nulla",
-        "genre": "hip hop",
-        "release_date": 2008
-    },
-    {
-        "song_title": "mauris ullamcorper purus sit",
-        "artist_name": "Barbette Prest",
-        "album_name": "ante",
-        "genre": "hip hop",
-        "release_date": 1984
-    },
-    {
-        "song_title": "placerat ante nulla justo aliquam",
-        "artist_name": "Horatius Haydney",
-        "album_name": "donec dapibus duis",
-        "genre": "country",
-        "release_date": 1994
-    },
-    {
-        "song_title": "aliquet massa id",
-        "artist_name": "Sadie Leward",
-        "album_name": "dui vel",
-        "genre": "pop",
-        "release_date": 2008
-    },
-    {
-        "song_title": "aliquet",
-        "artist_name": "Beatrice Wannell",
-        "album_name": "bibendum",
-        "genre": "rock",
-        "release_date": 1993
-    },
-    {
-        "song_title": "elementum in hac",
-        "artist_name": "Willette Densun",
-        "album_name": "tempor convallis nulla",
-        "genre": "jazz",
-        "release_date": 2002
+        "release_date": 2021,
+        "image_link": "a"
     }
 ]
