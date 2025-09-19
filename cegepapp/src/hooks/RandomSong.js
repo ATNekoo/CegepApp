@@ -9,7 +9,7 @@ const shuffleArray = (array) => {
   return shuffled;
 };
 
-const getRandomSongs = (count = 3) => {
+const getRandomSongs = (count = songsData.length) => {
   const shuffledSongs = shuffleArray(songsData);
   return shuffledSongs.slice(0, count);
 };

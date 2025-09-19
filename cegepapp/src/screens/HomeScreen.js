@@ -7,7 +7,7 @@ export default function HomeScreen({navigation}) {
     const [featuredSongs, setFeaturedSongs] = useState([]);
 
     useEffect(() => {
-        setFeaturedSongs(getRandomSongs(50));
+        setFeaturedSongs(getRandomSongs());
     }, []);
 
     
@@ -41,8 +41,7 @@ export default function HomeScreen({navigation}) {
       <TouchableOpacity
         style={styles.button}
         onPress={() => {
-          const selected = getRandomSongs(3);
-          setFeaturedSongs(selected);
+          setFeaturedSongs(getRandomSongs(50));
         }}
       >
         <Text style={styles.buttonText}>Shuffle Songs</Text>
