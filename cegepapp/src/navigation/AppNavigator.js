@@ -52,7 +52,6 @@ export default function AppNavigator() {
           }}
         />
         <Stack.Screen name="Details" component={DetailsScreen} />
-        <Stack.Screen name="Chatbot" component={ChatbotScreen} options={{ title: "Chatbot" }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
