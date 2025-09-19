@@ -26,7 +26,7 @@ function Tabs() {
       <Tab.Screen
         name="Chatbot"
         component={ChatbotScreen}
-        options={{ title: "Chatbot" }}
+        options={{ title: "Chatbot"}}
       />
       <Tab.Screen
         name="Settings"

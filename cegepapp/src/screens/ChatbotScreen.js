@@ -41,7 +41,7 @@ export default function ChatbotScreen() {
             <Text style={styles.title}>{botAnswer}</Text>
             </View>
             <View style={styles.userContainer}>
-                <TextInput style={styles.textInput} onSubmitEditing={() => {sendMessageToChatbot(userText); setBotAnswer("Good taste ! Let me think for a second...")}} onChangeText={setChangeText} value={userText} placeholder='Come on boy..tell me.' placeholderTextColor={"#f7f7f7"}></TextInput>
+                <TextInput style={styles.textInput} onSubmitEditing={() => {sendMessageToChatbot(userText); setBotAnswer("Good taste ! Let me think for a second...")}} onChangeText={setChangeText} value={userText} placeholder='Write here.' placeholderTextColor={"#f7f7f7"}></TextInput>
                     <View style={styles.buttonAndText}>
                     <TouchableOpacity style={styles.button} onPress={() => {sendMessageToChatbot(userText); setBotAnswer("Good taste ! Let me think for a second...")}} >
                         <Text style={styles.subtitle}>Enter
@@ -64,54 +64,52 @@ const styles = StyleSheet.create({
     },
     userContainer: {
         flex:1,
-        flexDirection:"row",
+        flexDirection:"column",
         alignItems: 'center',
         justifyContent: 'center',
-        padding : 5,
+        marginTop:"5vh",
     },
     title: {
-        fontSize: 25,
+        fontSize: 17,
         fontWeight: 500,
-        margin: 20,
-        color:"#f7f7f7"
+        color:"#323643"
     },
     subtitle: {
         fontSize: 20,
-        fontWeight: 400,
+        fontWeight: 500,
         margin:10,
-        color: "#f7f7f7",
+        color: "#323643",
     },
     textInput: {
-        margin: 25,
         width:'35vh',
-        borderWidth: 1,
+        borderWidth: 2,
         borderRadius: 4,
-        padding:10,
+        padding:20,
         borderColor:"#93deff",
         color:"#f7f7f7",
     },
     button: {
         borderRadius: 8,
-        borderWidth: 2,
-        borderColor:"#93deff",
-        backgroundColor:'#606470',
+        borderWidth: 1,
+        borderColor:"#606470",
+        backgroundColor:'#93deff',
+        marginTop:"15vh",
         width:"auto",
     },
     buttonAndText: {
-        flex:1,
         width:"auto",
-        height:"15px",
-        flexDirection:"row",
         alignItems: 'center',
         justifyContent: 'center',
     },
     ChatBotBox: {
-        backgroundColor:"#606470",
+        backgroundColor:"#93deff",
         borderRadius:5,
-        flex:1,
+        padding:20,
+        marginTop:42,
         flexDirection:"row",
         alignItems: 'center',
         justifyContent: 'center',
-        width:"75vh"
+        width:"auto",
+        height:"auto"
     }
 })
