@@ -20,6 +20,9 @@ export default function HomeScreen({navigation}) {
             <Text style={styles.songLine}>
                 {item.song_title} ({item.album_name}) – {item.artist_name}
             </Text>
+            <TouchableOpacity>
+              <Image style={styles.likeIcon}  source={require('../icons/Like.png')}/>
+            </TouchableOpacity>
         </View>
     );
 
@@ -107,4 +110,9 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "500",
   },
+
+  likeIcon:{
+    width:27,
+    height:30
+  }
 });
