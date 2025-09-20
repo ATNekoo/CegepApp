@@ -25,16 +25,9 @@ export default function ChatbotScreen() {
 
         let rawOutputBot = response.data[0].output
         rawOutputBot = rawOutputBot.replace("```json\n","").replace("```","").trim()
-        console.log(rawOutputBot);
         let parsedOutputBot = JSON.parse(rawOutputBot);
         setRecommandedSongs(parsedOutputBot.musics)
-
-   
-        if (parsedOutputBot.message) {
-            setBotAnswer(parsedOutputBot.message);
-        } else {
-            setBotAnswer("Pas de output reçu par le bot...AAAAAAHHHHHHH");
-        }
+        setBotAnswer(parsedOutputBot.message);
         
         } catch (error) {
             console.error("Erreur avec le ChatBot (...jpp)", error);
