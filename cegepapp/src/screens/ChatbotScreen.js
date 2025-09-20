@@ -28,7 +28,6 @@ export default function ChatbotScreen() {
         let parsedOutputBot = JSON.parse(rawOutputBot);
         setRecommandedSongs(parsedOutputBot.musics)
         setBotAnswer(parsedOutputBot.message);
-        
         } catch (error) {
             console.error("Erreur avec le ChatBot (...jpp)", error);
             setBotAnswer("J'ai mal coder woops.")
@@ -91,6 +90,7 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         alignItems: "center",
         borderRadius: 10,
+        backgroundColor: "#606470",
         padding: 5,
         marginBottom: 10,
         borderWidth: 2,
@@ -107,6 +107,7 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: 500,
         color:"#f7f7f7",
+        backgroundColor: "#606470",
         marginBottom:20,
         borderRadius: 10,
         padding: 10,
