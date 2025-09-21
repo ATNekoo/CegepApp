@@ -7,6 +7,7 @@ import Playlists from "../screens/Playlists";
 import DetailsScreen from "../screens/DetailsScreen";
 import SettingsScreen from "../screens/SettingsScreen";
 import ChatbotScreen from "../screens/ChatbotScreen";
+import FavoriteSongsScreen from "../screens/FavoriteSongsScreen";
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
 
@@ -28,6 +29,14 @@ function Tabs() {
         component={ChatbotScreen}
         options={{ title: "Chatbot"}}
       />
+           <Tab.Screen
+        name="favoriteSongs"
+        component={FavoriteSongsScreen}
+        options={{
+          title: "Favorites",
+        }}
+      />
+
       <Tab.Screen
         name="Settings"
         component={SettingsScreen}
@@ -36,6 +45,7 @@ function Tabs() {
         }}
       />
 
+      
     </Tab.Navigator>
   );
 }
