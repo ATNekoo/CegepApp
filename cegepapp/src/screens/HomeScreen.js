@@ -1,29 +1,41 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, FlatList, Image } from 'react-native';
 import { getRandomSongs } from '../hooks/RandomSong';
+import SongPlayerModal from '../hooks/MusicPlayer';
 
 export default function HomeScreen({navigation}) {
 
     const [featuredSongs, setFeaturedSongs] = useState([]);
+    const [modalVisible, setModalVisible] = useState(false)
+    const [currentSong, setCurrentSong] = useState(null)
 
     useEffect(() => {
         setFeaturedSongs(getRandomSongs());
     }, []);
 
+    const handleOpenPlayer = (song) => {
+      setCurrentSong(song);
+      setModalVisible(true)
+    }
+
     
     const renderSongItem = ({ item }) => (
-        <View style={styles.card}>
+        <TouchableOpacity style={styles.card} onPress={() => handleOpenPlayer(item)}>
             <Image
                 source={{ uri: item.image }}
                 style={styles.image}
             />
-            <Text style={styles.songLine}>
-                {item.song_title} ({item.album_name}) – {item.artist_name}
-            </Text>
+
+            <View style={{flex:1}}>
+            <Text style={styles.songLine}>{item.song_title} – {item.artist_name}</Text>
+            
+            <Text style={[styles.songLine,  {fontSize:12, color:"#ccc"}]}>{item.album_name}</Text>
+            </View>
             <TouchableOpacity>
               <Image style={styles.likeIcon}  source={require('../icons/Like.png')}/>
             </TouchableOpacity>
-        </View>
+        </TouchableOpacity>
+
     );
 
     return (
@@ -49,6 +61,14 @@ export default function HomeScreen({navigation}) {
       >
         <Text style={styles.buttonText}>Shuffle Songs</Text>
       </TouchableOpacity>
+
+      <SongPlayerModal
+        visible={modalVisible}
+        onClose={() => setModalVisible(false)}
+        videoId={currentSong?.youtube_id}
+        title={currentSong?.song_title}
+      />
+
     </View>
   );
 }
@@ -112,7 +132,8 @@ const styles = StyleSheet.create({
   },
 
   likeIcon:{
-    width:27,
+
+    width:30,
     height:30
   }
 });
