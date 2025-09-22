@@ -25,6 +25,7 @@ export default function HomeScreen({navigation}) {
                 source={{ uri: item.image }}
                 style={styles.image}
             />
+
             <View style={{flex:1}}>
             <Text style={styles.songLine}>{item.song_title} – {item.artist_name}</Text>
             
@@ -34,6 +35,7 @@ export default function HomeScreen({navigation}) {
               <Image style={styles.likeIcon}  source={require('../icons/Like.png')}/>
             </TouchableOpacity>
         </TouchableOpacity>
+
     );
 
     return (
@@ -130,6 +132,7 @@ const styles = StyleSheet.create({
   },
 
   likeIcon:{
+
     width:30,
     height:30
   }
