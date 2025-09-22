@@ -1,352 +1,502 @@
 [
-    {
-        "song_title": "eu magna vulputate",
-        "artist_name": "Kissie Haselgrove",
-        "album_name": "hac habitasse",
-        "genre": "pop",
-        "release_date": 2009
-    },
-    {
-        "song_title": "sit amet justo morbi ut",
-        "artist_name": "Torey Gregorio",
-        "album_name": "morbi porttitor lorem",
-        "genre": "jazz",
-        "release_date": 2000
-    },
-    {
-        "song_title": "eu orci mauris lacinia sapien",
-        "artist_name": "Shelton Mattimoe",
-        "album_name": "lacinia erat vestibulum sed",
-        "genre": "jazz",
-        "release_date": 2011
-    },
-    {
-        "song_title": "in felis eu sapien",
-        "artist_name": "Cloe Lownie",
-        "album_name": "nisl duis bibendum felis",
-        "genre": "pop",
-        "release_date": 2009
-    },
-    {
-        "song_title": "massa donec dapibus duis",
-        "artist_name": "Arie Mockes",
-        "album_name": "non velit nec",
-        "genre": "country",
-        "release_date": 2010
-    },
-    {
-        "song_title": "dolor",
-        "artist_name": "Shermy Carthy",
-        "album_name": "nonummy maecenas tincidunt lacus",
-        "genre": "country",
-        "release_date": 2007
-    },
-    {
-        "song_title": "orci",
-        "artist_name": "Patrice Morrow",
-        "album_name": "maecenas tristique",
-        "genre": "hip hop",
-        "release_date": 1997
-    },
-    {
-        "song_title": "cubilia curae duis faucibus",
-        "artist_name": "Idell Duffill",
-        "album_name": "velit",
-        "genre": "country",
-        "release_date": 1991
-    },
-    {
-        "song_title": "sit",
-        "artist_name": "Roshelle Sollime",
-        "album_name": "diam cras pellentesque",
-        "genre": "jazz",
-        "release_date": 2000
-    },
-    {
-        "song_title": "donec semper",
-        "artist_name": "Ina Boice",
-        "album_name": "eget nunc donec",
-        "genre": "jazz",
-        "release_date": 2012
-    },
-    {
-        "song_title": "auctor",
-        "artist_name": "Nevil Nowlan",
-        "album_name": "odio cras mi",
-        "genre": "jazz",
-        "release_date": 1961
-    },
-    {
-        "song_title": "lacus at velit vivamus vel",
-        "artist_name": "Harriot Gillson",
-        "album_name": "neque vestibulum eget vulputate",
-        "genre": "rock",
-        "release_date": 1993
-    },
-    {
-        "song_title": "pellentesque ultrices",
-        "artist_name": "Ruthe Ockenden",
-        "album_name": "dapibus augue",
-        "genre": "rock",
-        "release_date": 1999
-    },
-    {
-        "song_title": "integer a nibh",
-        "artist_name": "Gabriello Studdal",
-        "album_name": "erat eros viverra eget",
-        "genre": "pop",
-        "release_date": 2012
-    },
-    {
-        "song_title": "velit id pretium iaculis diam",
-        "artist_name": "Charin Koppeck",
-        "album_name": "lacinia aenean sit",
-        "genre": "hip hop",
-        "release_date": 2005
-    },
-    {
-        "song_title": "orci luctus et ultrices posuere",
-        "artist_name": "Meridel Willis",
-        "album_name": "massa id nisl",
-        "genre": "pop",
-        "release_date": 1993
-    },
-    {
-        "song_title": "pulvinar nulla pede ullamcorper augue",
-        "artist_name": "Halsey Paternoster",
-        "album_name": "integer",
-        "genre": "rock",
-        "release_date": 2011
-    },
-    {
-        "song_title": "velit donec diam neque",
-        "artist_name": "Taddeo Emanulsson",
-        "album_name": "potenti in eleifend quam",
-        "genre": "pop",
-        "release_date": 1991
-    },
-    {
-        "song_title": "sapien urna pretium nisl",
-        "artist_name": "Harmonia Johnson",
-        "album_name": "velit donec diam neque",
-        "genre": "hip hop",
-        "release_date": 2010
-    },
-    {
-        "song_title": "ridiculus mus vivamus",
-        "artist_name": "Elsa Maher",
-        "album_name": "venenatis tristique fusce",
-        "genre": "pop",
-        "release_date": 2008
-    },
-    {
-        "song_title": "mauris morbi non lectus aliquam",
-        "artist_name": "Albina Flaunier",
-        "album_name": "aliquet",
-        "genre": "hip hop",
-        "release_date": 2010
-    },
-    {
-        "song_title": "cras mi pede malesuada in",
-        "artist_name": "Sioux Osment",
-        "album_name": "accumsan",
-        "genre": "jazz",
-        "release_date": 1972
-    },
-    {
-        "song_title": "nisi vulputate nonummy maecenas",
-        "artist_name": "Ford Kinkead",
-        "album_name": "diam erat fermentum",
-        "genre": "country",
-        "release_date": 1996
-    },
-    {
-        "song_title": "curabitur",
-        "artist_name": "Merell Saffrin",
-        "album_name": "sapien a",
-        "genre": "pop",
-        "release_date": 1998
-    },
-    {
-        "song_title": "elit",
-        "artist_name": "Ahmed Kenelin",
-        "album_name": "risus",
-        "genre": "jazz",
-        "release_date": 1998
-    },
-    {
-        "song_title": "varius ut blandit non",
-        "artist_name": "Ardyce Sherville",
-        "album_name": "sed ante",
-        "genre": "hip hop",
-        "release_date": 1975
-    },
-    {
-        "song_title": "donec posuere",
-        "artist_name": "Reina Bachelor",
-        "album_name": "est donec odio justo",
-        "genre": "rock",
-        "release_date": 1996
-    },
-    {
-        "song_title": "integer a nibh in",
-        "artist_name": "Bellanca Itzkovwich",
-        "album_name": "tortor risus",
-        "genre": "country",
-        "release_date": 2008
-    },
-    {
-        "song_title": "vitae",
-        "artist_name": "Ted Snewin",
-        "album_name": "nam congue",
-        "genre": "pop",
-        "release_date": 1993
-    },
-    {
-        "song_title": "est quam pharetra magna",
-        "artist_name": "Monica Nissle",
-        "album_name": "proin leo odio",
-        "genre": "rock",
-        "release_date": 1994
-    },
-    {
-        "song_title": "odio condimentum id",
-        "artist_name": "Nikoletta Dorie",
-        "album_name": "id lobortis convallis",
-        "genre": "country",
-        "release_date": 2000
-    },
-    {
-        "song_title": "accumsan felis ut at",
-        "artist_name": "Callida Lemery",
-        "album_name": "augue luctus tincidunt",
-        "genre": "rock",
-        "release_date": 1984
-    },
-    {
-        "song_title": "ligula in lacus",
-        "artist_name": "Rosene Orriss",
-        "album_name": "quam sapien varius ut",
-        "genre": "rock",
-        "release_date": 1995
-    },
-    {
-        "song_title": "nulla tempus vivamus in",
-        "artist_name": "Jessika Petel",
-        "album_name": "nulla",
-        "genre": "country",
-        "release_date": 1998
-    },
-    {
-        "song_title": "convallis morbi",
-        "artist_name": "Sheela De Cruz",
-        "album_name": "sed",
-        "genre": "country",
-        "release_date": 2006
-    },
-    {
-        "song_title": "pulvinar sed",
-        "artist_name": "Hanna Adriaens",
-        "album_name": "felis eu",
-        "genre": "rock",
-        "release_date": 1995
-    },
-    {
-        "song_title": "in",
-        "artist_name": "Merola Fronks",
-        "album_name": "pellentesque quisque",
-        "genre": "country",
-        "release_date": 1984
-    },
-    {
-        "song_title": "velit nec nisi vulputate nonummy",
-        "artist_name": "Tracie Cowterd",
-        "album_name": "luctus et",
-        "genre": "hip hop",
-        "release_date": 2009
-    },
-    {
-        "song_title": "vivamus metus",
-        "artist_name": "Kellyann Rushmere",
-        "album_name": "molestie lorem",
-        "genre": "hip hop",
-        "release_date": 2000
-    },
-    {
-        "song_title": "ac consequat metus sapien ut",
-        "artist_name": "Amargo McGilvray",
-        "album_name": "sed augue aliquam erat",
-        "genre": "hip hop",
-        "release_date": 2004
-    },
-    {
-        "song_title": "sapien",
-        "artist_name": "Raddie Von Helmholtz",
-        "album_name": "interdum",
-        "genre": "hip hop",
-        "release_date": 2010
-    },
-    {
-        "song_title": "sed vestibulum",
-        "artist_name": "Roanne Giorgione",
-        "album_name": "nisi at",
-        "genre": "jazz",
-        "release_date": 2001
-    },
-    {
-        "song_title": "habitasse platea dictumst morbi",
-        "artist_name": "Constantina Whitloe",
-        "album_name": "volutpat sapien arcu",
-        "genre": "jazz",
-        "release_date": 2000
-    },
-    {
-        "song_title": "pede venenatis non sodales sed",
-        "artist_name": "Justin Forgan",
-        "album_name": "eu interdum eu tincidunt",
-        "genre": "hip hop",
-        "release_date": 1986
-    },
-    {
-        "song_title": "augue",
-        "artist_name": "Fanya Rusk",
-        "album_name": "eget semper rutrum nulla",
-        "genre": "hip hop",
-        "release_date": 2008
-    },
-    {
-        "song_title": "mauris ullamcorper purus sit",
-        "artist_name": "Barbette Prest",
-        "album_name": "ante",
-        "genre": "hip hop",
-        "release_date": 1984
-    },
-    {
-        "song_title": "placerat ante nulla justo aliquam",
-        "artist_name": "Horatius Haydney",
-        "album_name": "donec dapibus duis",
-        "genre": "country",
-        "release_date": 1994
-    },
-    {
-        "song_title": "aliquet massa id",
-        "artist_name": "Sadie Leward",
-        "album_name": "dui vel",
-        "genre": "pop",
-        "release_date": 2008
-    },
-    {
-        "song_title": "aliquet",
-        "artist_name": "Beatrice Wannell",
-        "album_name": "bibendum",
-        "genre": "rock",
-        "release_date": 1993
-    },
-    {
-        "song_title": "elementum in hac",
-        "artist_name": "Willette Densun",
-        "album_name": "tempor convallis nulla",
-        "genre": "jazz",
-        "release_date": 2002
-    }
+  {
+    "id": 1,
+    "song_title": "Shape of You",
+    "artist_name": "Ed Sheeran",
+    "album_name": "÷ (Divide)",
+    "genre": "pop",
+    "release_date": 2017,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F3710c6f28a35a0635d3e54ea30a8fc5c.1000x1000x1.png",
+    "youtube_id": "JGwWNGJdvx8"
+  },
+  {
+    "id": 2,
+    "song_title": "Mosaique Solitaire",
+    "artist_name": "Damso",
+    "album_name": "Ipséité",
+    "genre": "hip hop",
+    "release_date": 2017,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fcc5b8b020c7d8a912a8a35b14b64de4d.1000x1000x1.jpg",
+    "youtube_id": "i2v2hEXwVgQ"
+  },
+  {
+    "id": 3,
+    "song_title": "So What",
+    "artist_name": "Miles Davis",
+    "album_name": "Kind of Blue",
+    "genre": "jazz",
+    "release_date": 1959,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fa3c7ec3db51a5bead2344c84b6f48fa6.600x600x1.png",
+    "youtube_id": "ylXk1LBvIqU"
+  },
+  {
+    "id": 4,
+    "song_title": "Take Five",
+    "artist_name": "Dave Brubeck",
+    "album_name": "Time Out",
+    "genre": "jazz",
+    "release_date": 1959,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.rapgenius.com%2F6d57a369a86f31af2fb22a753100fd3c.600x604x1.jpg",
+    "youtube_id": "vmDDOFXSgAs"
+  },
+  {
+    "id": 5,
+    "song_title": "Bad Guy",
+    "artist_name": "Billie Eilish",
+    "album_name": "When We All Fall Asleep, Where Do We Go?",
+    "genre": "pop",
+    "release_date": 2019,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F340ad5b2b1163aa2333a8efc0815b84f.1000x1000x1.jpg",
+    "youtube_id": "DyDfgMOUjCI" 
+  },
+  {
+    "id": 6,
+    "song_title": "Jolene",
+    "artist_name": "Dolly Parton",
+    "album_name": "Jolene",
+    "genre": "country",
+    "release_date": 1974,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.rapgenius.com%2Fc7233875a7aadfeb60cf3a097e242209.280x280x1.jpg",
+    "youtube_id": "Ixrje2rXLMA"
+  },
+  {
+    "id": 7,
+    "song_title": "Ring of Fire",
+    "artist_name": "Johnny Cash",
+    "album_name": "Ring of Fire: The Best of Johnny Cash",
+    "genre": "country",
+    "release_date": 1963,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F52aaf7d96fc7cb1e4d63bd0c35c1f4ed.500x499x1.jpg",
+    "youtube_id": "1WaV2x8GXj0"
+  },
+  {
+    "id": 8,
+    "song_title": "Lose Yourself",
+    "artist_name": "Eminem",
+    "album_name": "8 Mile Soundtrack",
+    "genre": "hip hop",
+    "release_date": 2002,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fce61c1b2664c5952984e30f9b59f1346.1000x1000x1.png",
+    "youtube_id": "xFYQQPAOz7Y"
+  },
+  {
+    "id": 9,
+    "song_title": "XS",
+    "artist_name": "Josman",
+    "album_name": "J.O.$",
+    "genre": "hip hop",
+    "release_date": 2018,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F6d92d30a4ca6a62c0879d3dbd9e6ebed.220x220x1.jpg",
+    "youtube_id": "XfDd4k0kV-4"
+  },
+  {
+    "id": 10,
+    "song_title": "Nuthin' But a 'G' Thang",
+    "artist_name": "Dr. Dre",
+    "album_name": "The Chronic",
+    "genre": "hip hop",
+    "release_date": 1992,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F310d8846f2a3fbddf220689ba6454ef5.970x970x1.jpg",
+    "youtube_id": "8GliyDgAGQI"
+  },
+  {
+    "id": 11,
+    "song_title": "Smells Like Teen Spirit",
+    "artist_name": "Nirvana",
+    "album_name": "Nevermind",
+    "genre": "rock",
+    "release_date": 1991,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F3dd6ff4dec4c562108879f5b303da164.600x600x1.png",
+    "youtube_id": "hTWKbfoikeg"
+  },
+  {
+    "id": 12,
+    "song_title": "Hotel California",
+    "artist_name": "Eagles",
+    "album_name": "Hotel California",
+    "genre": "rock",
+    "release_date": 1976,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fb7b575c1c5015ee29a929bc6312b9f74.599x593x1.png",
+    "youtube_id": "dLl4PZtxia8"
+  },
+  {
+    "id": 13,
+    "song_title": "Billie Jean",
+    "artist_name": "Michael Jackson",
+    "album_name": "Thriller",
+    "genre": "pop",
+    "release_date": 1982,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fbf705f7b0a2cdf0c76588aae2256616d.1000x1000x1.png",
+    "youtube_id": "Zi_XLOBDo_Y"
+  },
+  {
+    "id": 14,
+    "song_title": "Respect",
+    "artist_name": "Aretha Franklin",
+    "album_name": "I Never Loved a Man the Way I Love You",
+    "genre": "soul",
+    "release_date": 1967,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fce98cca792d9ba567d2b5d4ffecbd013.400x400x1.jpg",
+    "youtube_id": "A134hShx_gw"
+  },
+  {
+    "id": 15,
+    "song_title": "All of Me",
+    "artist_name": "John Legend",
+    "album_name": "Love in the Future",
+    "genre": "R&B",
+    "release_date": 2013,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F14a8c78b6bc1c461b564ba082bc1a158.1000x1000x1.png",
+    "youtube_id": "450p7goxZqg"
+  },
+  {
+    "id": 16,
+    "song_title": "Uptown Funk",
+    "artist_name": "Mark Ronson ft. Bruno Mars",
+    "album_name": "Uptown Special",
+    "genre": "funk",
+    "release_date": 2014,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F82f198169cce34c7e52880cce45d28de.1000x1000x1.png",
+    "youtube_id": "OPf0YbXqDm0"
+  },
+  {
+    "id": 17,
+    "song_title": "Hey Jude",
+    "artist_name": "The Beatles",
+    "album_name": "Hey Jude",
+    "genre": "rock",
+    "release_date": 1968,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F7026bcb3bce6dcf6dfac1027f97ccfaf.598x583x1.jpg",
+    "youtube_id": "A_MjCqQoLLA"
+  },
+  {
+    "id": 18,
+    "song_title": "Crazy in Love",
+    "artist_name": "Beyoncé ft. Jay-Z",
+    "album_name": "Dangerously in Love",
+    "genre": "R&B",
+    "release_date": 2003,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F349ba81fc2fe59c84a2c7427d2399e0e.1000x1000x1.png",
+    "youtube_id": "ViwtNLUqkMY"
+  },
+  {
+    "id": 19,
+    "song_title": "Back in Black",
+    "artist_name": "AC/DC",
+    "album_name": "Back in Black",
+    "genre": "rock",
+    "release_date": 1980,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.rapgenius.com%2F012fdf6487acd682eddc8d3debdc4eac.500x500x1.jpg",
+    "youtube_id": "pAgnJDJN4VA"
+  },
+  {
+    "id": 20,
+    "song_title": "Humble",
+    "artist_name": "Kendrick Lamar",
+    "album_name": "DAMN.",
+    "genre": "hip hop",
+    "release_date": 2017,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F483306c535608c27f9e3781b854dc91d.1000x1000x1.png",
+    "youtube_id": "Gx6xnVQuFzw"
+  },
+  {
+    "id": 21,
+    "song_title": "Thinking Out Loud",
+    "artist_name": "Ed Sheeran",
+    "album_name": "x (Multiply)",
+    "genre": "pop",
+    "release_date": 2014,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F0964628b3d53cd652ac94a63acd4f307.1000x1000x1.png",
+    "youtube_id": "lp-EO5I60KA"
+  },
+  {
+    "id": 22,
+    "song_title": "Ciel",
+    "artist_name": "GIMS",
+    "album_name": "LE NORD SE SOUVIENT : L’ODYSSÉE",
+    "genre": "hip hop",
+    "release_date": 2025,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F4ae2f9381bf1430c1c186050f6452c98.1000x1000x1.png",
+    "youtube_id": "KG6ft_YDp5k"
+  },
+  {
+    "id": 23,
+    "song_title": "Rolling in the Deep",
+    "artist_name": "Adele",
+    "album_name": "21",
+    "genre": "pop",
+    "release_date": 2010,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fa9fa6bfb946e5ecde0d63fe20073d5c7.1000x1000x1.png",
+    "youtube_id": "rYEDA3JcQqw"
+  },
+  {
+    "id": 24,
+    "song_title": "Superstition",
+    "artist_name": "Stevie Wonder",
+    "album_name": "Talking Book",
+    "genre": "funk",
+    "release_date": 1972,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fb0dc96367dd7adee87a3d67dcd0f141b.585x599x1.jpg",
+    "youtube_id": "0CFuCYNx-1g"
+  },
+  {
+    "id": 25,
+    "song_title": "I Will Always Love You",
+    "artist_name": "Whitney Houston",
+    "album_name": "The Bodyguard",
+    "genre": "pop",
+    "release_date": 1992,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fc30cf0c7e0534ea73feef16a7d09b61d.1000x1000x1.jpg",
+    "youtube_id": "3JWTaaS7LdU"
+  },
+  {
+    "id": 26,
+    "song_title": "All Along the Watchtower",
+    "artist_name": "Jimi Hendrix",
+    "album_name": "Electric Ladyland",
+    "genre": "rock",
+    "release_date": 1968,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F40169c4a86e479f32e7a44e3ae4d85d4.320x320x1.jpg",
+    "youtube_id": "TLV4_xaYynY"
+  },
+  {
+    "id": 27,
+    "song_title": "Lose Control",
+    "artist_name": "Missy Elliott",
+    "album_name": "The Cookbook",
+    "genre": "hip hop",
+    "release_date": 2005,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F51639e476eac5cb5bed5794c023763ff.700x707x1.jpg",
+    "youtube_id": "na7lIb09898"
+  },
+  {
+    "id": 28,
+    "song_title": "What a Wonderful World",
+    "artist_name": "Louis Armstrong",
+    "album_name": "What a Wonderful World",
+    "genre": "jazz",
+    "release_date": 1967,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fc75218bea649c681fdd083da0a96c2d7.590x591x1.jpg",
+    "youtube_id": "rBrd_3VMC3c"
+  },
+  {
+    "id": 29,
+    "song_title": "Take On Me",
+    "artist_name": "a-ha",
+    "album_name": "Hunting High and Low",
+    "genre": "pop",
+    "release_date": 1985,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F166e23f65880aa49c32292e645fe1e79.600x600x1.jpg",
+    "youtube_id": "djV11Xbc914"
+  },
+  {
+    "id": 30,
+    "song_title": "Sweet Child O' Mine",
+    "artist_name": "Guns N' Roses",
+    "album_name": "Appetite for Destruction",
+    "genre": "rock",
+    "release_date": 1987,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fa8dbbb16d6f02f2d27b86e60d11b1476.1000x1000x1.jpg",
+    "youtube_id": "1w7OgIMMRc4"
+  },
+  {
+    "id": 31,
+    "song_title": "Alright",
+    "artist_name": "Kendrick Lamar",
+    "album_name": "To Pimp a Butterfly",
+    "genre": "hip hop",
+    "release_date": 2015,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fde919556998a79d8ebfe51b9963121d1.1000x1000x1.png",
+    "youtube_id": "Z-48u_uWMHY"
+  },
+  {
+    "id": 32,
+    "song_title": "Respect Yourself",
+    "artist_name": "The Staple Singers",
+    "album_name": "Be Altitude: Respect Yourself",
+    "genre": "soul",
+    "release_date": 1971,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F3e708707b57e115fa312f14de7cca304.820x820x1.jpg",
+    "youtube_id": "10Rw7tf3QzM"
+  },
+  {
+    "id": 33,
+    "song_title": "No Woman, No Cry",
+    "artist_name": "Bob Marley",
+    "album_name": "Natty Dread",
+    "genre": "reggae",
+    "release_date": 1974,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fa8e0281c1bd7af69e0c0613d57cf93e3.600x600x1.jpg",
+    "youtube_id": "IT8XvzIfi4U"
+  },
+  {
+    "id": 34,
+    "song_title": "Thriller",
+    "artist_name": "Michael Jackson",
+    "album_name": "Thriller",
+    "genre": "pop",
+    "release_date": 1982,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F585206b05f2404ac0f05155e6a867a5c.1000x1000x1.jpg",
+    "youtube_id": "sOnqjkJTMaA"
+  },
+  {
+    "id": 35,
+    "song_title": "Dehors Dans La Night",
+    "artist_name": "Laylow",
+    "album_name": "L’Étrange Histoire de Mr.Anderson",
+    "genre": "hip hop",
+    "release_date": 2021,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Feab9abae317ae7f5089d11eab6f5b71e.500x500x1.jpg",
+    "youtube_id": "nqXwKNkxTx0"
+  },
+  {
+    "id": 36,
+    "song_title": "JCVDEMS",
+    "artist_name": "Damso",
+    "album_name": "BEYAH",
+    "genre": "hip hop",
+    "release_date": 2020,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fac4f089f51ba77377f8cb6f1a4019e8f.1000x1000x1.png",
+    "youtube_id": "SCFPkQhxtb0"
+  },
+  {
+    "id": 37,
+    "song_title": "Moonrock",
+    "artist_name": "Josman",
+    "album_name": "MAN (Black roses and lost feelings)",
+    "genre": "hip hop",
+    "release_date": 2022,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F4de796e11c3930eda2972240195071cd.1000x1000x1.jpg",
+    "youtube_id": "VA4-XBVcuU4"
+  },
+  {
+    "id": 38,
+    "song_title": "Une Histoire Étrange",
+    "artist_name": "Laylow",
+    "album_name": "L’Étrange Histoire de MR.Anderson",
+    "genre": "hip hop",
+    "release_date": 2021,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fed4cd72a9364124e14d992304363654e.1000x1000x1.png",
+    "youtube_id": "0LSrT0KlpFE"
+  },
+  {
+    "id": 39,
+    "song_title": "Tu Me Rends Bête",
+    "artist_name": "GIMS",
+    "album_name": "LE NORD SE SOUVIENT : L’ODYSSÉE",
+    "genre": "hip hop",
+    "release_date": 2025,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F162e8175250c3a1a57fb3dae9a594db7.1000x1000x1.png",
+    "youtube_id": "YKR0qyxxkfs"
+  },
+  {
+    "id": 40,
+    "song_title": "Big Daddy Jok",
+    "artist_name": "Jok’air",
+    "album_name": "Big Daddy Jok",
+    "genre": "hip hop",
+    "release_date": 2017,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fb01d31da80f9e34832667b51bdc11684.1000x1000x1.jpg",
+    "youtube_id": "gsyDFk8ErHI"
+  },
+  {
+    "id": 41,
+    "song_title": "Dolce Camara",
+    "artist_name": "Booba",
+    "album_name": "AD VITAM ÆTERNAM",
+    "genre": "hip hop",
+    "release_date": 2024,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F73a1656de206e8c4e1126f42c9898c6d.1000x1000x1.jpg",
+    "youtube_id": "AgFG6_TGdTY"
+  },
+  {
+    "id": 42,
+    "song_title": "Blinding Lights",
+    "artist_name": "The Weeknd",
+    "album_name": "After Hours",
+    "genre": "pop",
+    "release_date": 2020,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F34c1c35ca27a735e6e5f18611acb1c16.1000x1000x1.png",
+    "youtube_id": "4NRXx6U8ABQ"
+  },
+  {
+    "id": 43,
+    "song_title": "Levitating",
+    "artist_name": "Dua Lipa",
+    "album_name": "Future Nostalgia",
+    "genre": "pop",
+    "release_date": 2020,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F4136ca8f6c03bd2fbc30c8d75407de75.1000x1000x1.png",
+    "youtube_id": "TUVcZfQe-Kw"
+  },
+  {
+    "id": 44,
+    "song_title": "Peaches",
+    "artist_name": "Justin Bieber",
+    "album_name": "Justice",
+    "genre": "pop",
+    "release_date": 2021,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F7fe95e1b68bd9fe6b8c3f44f68d4e55b.1000x1000x1.png",
+    "youtube_id": "tQ0yjYUFKAE"
+  },
+  {
+    "id": 45,
+    "song_title": "Stay",
+    "artist_name": "The Kid LAROI & Justin Bieber",
+    "album_name": "F*CK LOVE 3",
+    "genre": "pop",
+    "release_date": 2021,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fcd085ac3e3266b1d7af750c367855fda.1000x1000x1.png",
+    "youtube_id": "kTJczUoc26U"
+  },
+  {
+    "id": 46,
+    "song_title": "Industry Baby",
+    "artist_name": "Lil Nas X & Jack Harlow",
+    "album_name": "Montero",
+    "genre": "hip hop",
+    "release_date": 2021,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Ffafaf35f8dd0ad1991fd285657ad4900.1000x1000x1.png",
+    "youtube_id": "UTHLKHL_whs"
+  },
+  {
+    "id": 47,
+    "song_title": "Good 4 U",
+    "artist_name": "Olivia Rodrigo",
+    "album_name": "SOUR",
+    "genre": "pop",
+    "release_date": 2021,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F9b7e8e155104780646cc8e10d518dae5.1000x1000x1.png",
+    "youtube_id": "gNi_6U5Pm_o"
+  },
+  {
+    "id": 48,
+    "song_title": "Montero (Call Me By Your Name)",
+    "artist_name": "Lil Nas X",
+    "album_name": "Montero",
+    "genre": "hip hop",
+    "release_date": 2021,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fd9065e24a0739b9ef5baaef842eb1427.1000x1000x1.png",
+    "youtube_id": "6swmTBVI83k"
+  },
+  {
+    "id": 49,
+    "song_title": "Heat Waves",
+    "artist_name": "Glass Animals",
+    "album_name": "Dreamland",
+    "genre": "pop",
+    "release_date": 2020,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F14f9d7ab46d7737d9a6d7459c7333392.1000x1000x1.png",
+    "youtube_id": "mRD0-GxqHVo"
+  },
+  {
+    "id": 50,
+    "song_title": "Bad Habits",
+    "artist_name": "Ed Sheeran",
+    "album_name": "=",
+    "genre": "pop",
+    "release_date": 2021,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F2c924ef9617ca96ba49e89969c002964.1000x1000x1.png",
+    "youtube_id": "orJSJGHjBLI"
+  }
 ]
