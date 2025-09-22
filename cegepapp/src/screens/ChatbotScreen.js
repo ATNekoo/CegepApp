@@ -1,13 +1,25 @@
 import React, { use, useState } from 'react';
-import { View, Text, StyleSheet, TextInput, TouchableOpacity, FlatList} from 'react-native';
+import { View, Text, StyleSheet, TextInput, TouchableOpacity, FlatList, Image} from 'react-native';
 import axios from "axios";
+import SongPlayerModal from '../hooks/MusicPlayer';
 
 export default function ChatbotScreen() {
     const [userText, setChangeText] = useState("")
     const [botAnswer, setBotAnswer] = useState("Give me your favorite genres, artists and/or songs for recommendations.");
     const [userID, setUserID] = useState(0);
     const [recommandedSongs, setRecommandedSongs] = useState([]);
+    const [modalVisible, setModalVisible] = useState(false);
+    const [currentSong, setCurrentSong] = useState(null)
+
+    const handleOpenPlayer = (song) => {
+      setCurrentSong(song);
+      setModalVisible(true)
+    }
+
 //J'ai utilise la documentation axios (https://axios-http.com/docs/post_example & https://axios-http.com/docs/res_schema)
+// //Merci Alex de me laisser reprendre la base de ton code pour le render et le MusicPlayer bg.
+//L'api YTB que l'agent AI utilise est limité à 10k recherche par jour, 1 Query du bot en prend 1000 quasiement. Si quota dépassé, vidéo afficher sur l'app sont pas bonne, 
+//mais les musiques existes quand même réellement.
 //Je peux vous montrez mon agent N8N c'est fun et simple à setup.
     const sendMessageToChatbot = async (userMessage) => {
         try {
@@ -27,19 +39,24 @@ export default function ChatbotScreen() {
         rawOutputBot = rawOutputBot.replace("```json\n","").replace("```","").trim()
         let parsedOutputBot = JSON.parse(rawOutputBot);
         setRecommandedSongs(parsedOutputBot.musics)
+        console.log(parsedOutputBot.musics)
         setBotAnswer(parsedOutputBot.message);
         } catch (error) {
             console.error("Erreur avec le ChatBot (...jpp)", error);
             setBotAnswer("J'ai mal coder woops.")
         }
     } 
-    //Merci Alex de me laisser reprendre la base de ton code bg.
+
      const renderSongFromBot = ({ item }) => (
-            <View style={styles.card}>
+             <TouchableOpacity style={styles.card} onPress={() => handleOpenPlayer(item)}>
+                <Image
+                    source={{ uri: item.image }}
+                    style={styles.image}
+                />
                 <Text style={styles.songList}>
                     {item.title}  – {item.artist}
                 </Text>
-            </View>
+            </TouchableOpacity>
         );
     return (
         <View style={styles.container}>
@@ -67,6 +84,12 @@ export default function ChatbotScreen() {
                     </TouchableOpacity>
                 </View>
             </View>
+            <SongPlayerModal
+            visible={modalVisible}
+            onClose={() => setModalVisible(false)}
+            videoId={currentSong ? currentSong.videoId : null}
+            title={currentSong ? currentSong.title : null}
+            />
         </View>
     );
 }
@@ -79,6 +102,7 @@ const styles = StyleSheet.create({
         backgroundColor:"#323643",
     },
     ChatBotBox: {
+        flex:1,
         borderRadius:5,
         marginTop:30,
         flexDirection:"column",
@@ -141,4 +165,12 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: "500",
     },
+      image: { 
+        width: 60, 
+        height: 60, 
+        borderRadius: 5, 
+        borderWidth: 1,
+        marginRight: 10,
+        borderColor: "#93deff",
+  },
 })
