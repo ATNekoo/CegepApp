@@ -66,6 +66,7 @@ export default function HomeScreen({navigation}) {
         videoId={currentSong?.youtube_id}
         title={currentSong?.song_title}
       />
+
     </View>
   );
 }
