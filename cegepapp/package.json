@@ -22,20 +22,12 @@
     "react-dom": "19.1.0",
     "react-native": "0.81.4",
     "react-native-gesture-handler": "^2.28.0",
-<<<<<<< HEAD
-=======
-
->>>>>>> dc27a3765b25ad4c103e8f934a35f6b4b5c55041
     "react-native-reanimated": "~4.1.0",
     "react-native-safe-area-context": "~5.6.0",
     "react-native-screens": "~4.16.0",
     "react-native-web": "^0.21.0",
-<<<<<<< HEAD
     "react-native-worklets": "0.5.1",
     "react-native-youtube-iframe": "^2.4.1"
-=======
-    "react-native-worklets": "0.5.1"
->>>>>>> dc27a3765b25ad4c103e8f934a35f6b4b5c55041
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
