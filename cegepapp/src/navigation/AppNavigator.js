@@ -59,7 +59,12 @@ function Tabs() {
 export default function AppNavigator() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator
+        screenOptions={{
+          headerStyle: {backgroundColor: "#323643", height: 60, borderBottomWidth: 2, borderBottomColor: "#93deff" },
+          headerTitleStyle: { fontSize: 16, fontWeight: "bold", color: "#f7f7f7" },
+          headerTintColor: "#93deff",
+          headerTitleAlign: "center"}}>
         <Stack.Screen
           name="Tabs"
           component={Tabs}
