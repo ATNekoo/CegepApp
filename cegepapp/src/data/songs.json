@@ -363,7 +363,7 @@
     "id": 37,
     "song_title": "Moonrock",
     "artist_name": "Josman",
-    "album_name": "MAN (Black roses and lost feelings)",
+    "album_name": "MAN (Black Roses and Lost Feelings)",
     "genre": "hip hop",
     "release_date": 2022,
     "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F4de796e11c3930eda2972240195071cd.1000x1000x1.jpg",
@@ -373,7 +373,7 @@
     "id": 38,
     "song_title": "Une Histoire Étrange",
     "artist_name": "Laylow",
-    "album_name": "L’Étrange Histoire de MR.Anderson",
+    "album_name": "L’Étrange Histoire de Mr.Anderson",
     "genre": "hip hop",
     "release_date": 2021,
     "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fed4cd72a9364124e14d992304363654e.1000x1000x1.png",
@@ -498,5 +498,105 @@
     "release_date": 2021,
     "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F2c924ef9617ca96ba49e89969c002964.1000x1000x1.png",
     "youtube_id": "orJSJGHjBLI"
+  },
+   {
+    "id": 51,
+    "song_title": "Can't Help Falling in Love",
+    "artist_name": "Elvis Presley",
+    "album_name": "Blue Hawaii",
+    "genre": "pop",
+    "release_date": 1961,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Ff4f1c1433d4913299acc7e0036c17dfe.600x593x1.jpg",
+    "youtube_id": "vGJTaP6anOU"
+  },
+  {
+    "id": 52,
+    "song_title": "Fly Me to the Moon",
+    "artist_name": "Frank Sinatra",
+    "album_name": "It Might as Well Be Swing",
+    "genre": "jazz",
+    "release_date": 1964,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F2eca85ad8e208ea2dc52e02d98b521f5.500x500x1.jpg",
+    "youtube_id": "ZEcqHA7dbwM"
+  },
+  {
+    "id": 53,
+    "song_title": "Everybody Loves Somebody",
+    "artist_name": "Dean Martin",
+    "album_name": "Everybody Loves Somebody",
+    "genre": "pop",
+    "release_date": 1964,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F2cafeb20ec4c33272a266b77effbc8ca.1000x1000x1.png",
+    "youtube_id": "z-2_OstpR5c"
+  },
+  {
+    "id": 54,
+    "song_title": "Oh, Pretty Woman",
+    "artist_name": "Roy Orbison",
+    "album_name": "Oh, Pretty Woman",
+    "genre": "rock",
+    "release_date": 1964,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F5037fcf7e83f8deb16730ef750b2e926.1000x1000x1.jpg",
+    "youtube_id": "3KFvoDDs0XM"
+  },
+  {
+    "id": 55,
+    "song_title": "Put Your Head on My Shoulder",
+    "artist_name": "Paul Anka",
+    "album_name": "Single",
+    "genre": "pop",
+    "release_date": 1959,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F3c6aadca1bb135a6c1ce87cc0c976475.720x720x1.jpg",
+    "youtube_id": "kvazBqAlx58"
+  },
+  {
+    "id": 56,
+    "song_title": "Diamonds Are Forever",
+    "artist_name": "Shirley Bassey",
+    "album_name": "Diamonds Are Forever",
+    "genre": "pop",
+    "release_date": 1971,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fa622ec332e1c7a2c7002155f9596489e.1000x1000x1.jpg",
+    "youtube_id": "jboEolwHIIA"
+  },
+  {
+    "id": 57,
+    "song_title": "You Are So Beautiful",
+    "artist_name": "Joe Cocker",
+    "album_name": "I Can Stand a Little Rain",
+    "genre": "soul",
+    "release_date": 1974,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fa8b23049a8913675a5ea166bfab759aa.180x181x1.jpg",
+    "youtube_id": "WvAr9umnZ54"
+  },
+  {
+    "id": 58,
+    "song_title": "Son of a Preacher Man",
+    "artist_name": "Dusty Springfield",
+    "album_name": "Dusty in Memphis",
+    "genre": "soul",
+    "release_date": 1968,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fd06f6bf563fe93d194b29263bd222697.1000x1000x1.png",
+    "youtube_id": "oAZLgsDRUv4"
+  },
+  {
+    "id": 59,
+    "song_title": "Ne me quitte pas",
+    "artist_name": "Jacques Brel",
+    "album_name": "La Valse à mille temps",
+    "genre": "pop",
+    "release_date": 1959,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F771dbba6f198152210e449a09a225dc5.300x300x1.jpg",
+    "youtube_id": "i2wmKcBm4Ik"
+  },
+  {
+    "id": 60,
+    "song_title": "La Vie en rose",
+    "artist_name": "Edith Piaf",
+    "album_name": "Chansons Parisiennes",
+    "genre": "slow",
+    "release_date": 1947,
+    "image": "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F4c7feb9569afbe13c2bec39d2ba3fbba.600x593x1.jpg",
+    "youtube_id": "rzeLynj1GYM"
   }
 ]
