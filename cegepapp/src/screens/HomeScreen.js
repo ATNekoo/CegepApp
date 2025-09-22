@@ -132,7 +132,6 @@ const styles = StyleSheet.create({
   },
 
   likeIcon:{
-
     width:30,
     height:30
   }

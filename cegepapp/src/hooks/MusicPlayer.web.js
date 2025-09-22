@@ -11,7 +11,7 @@ export default function SongPlayerModal({ visible, onClose, videoId, title }) {
           <Text style={styles.title}>{title}</Text>
  
           {videoId ? (
-            <div style={{ width: "100%", height: 600 }}>
+            <div style={{ width: "100%", height: 500 }}>
               <iframe
                 title={title || "YouTube video"}
                 src={youtubeUrl}

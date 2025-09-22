@@ -10,7 +10,7 @@ export default function SongPlayerModal({ visible, onClose, videoId, title }) {
           <Text style={styles.title}>{title}</Text>
  
           {videoId ? (
-            <YoutubePlayer height={600} play={true} videoId={videoId} />
+            <YoutubePlayer height={200} play={true} videoId={videoId}/>
           ) : (
             <Text style={styles.noVideo}>No video available</Text>
           )}
