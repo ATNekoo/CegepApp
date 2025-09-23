@@ -29,6 +29,7 @@ function Tabs() {
       }}
     >
       <Tab.Screen name="Home" component={HomeScreen} />
+      <Tab.Screen name="Search" component={SearchScreen} options={{tabBarIcon: makeTabIcon(require("../icons/search-icon.svg"))}}/>
       <Tab.Screen name="Playlist" component={Playlists} />
       <Tab.Screen name="Chatbot" component={ChatbotScreen} />
       <Tab.Screen name="Favorites" component={FavoriteSongsScreen} />
