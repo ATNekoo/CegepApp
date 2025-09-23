@@ -1,4 +1,4 @@
-import React, { createContext, useState, useMemo, useCallback } from "react";
+import React, { createContext, useState, useMemo, useCallback, useContext } from "react";
 
 export const ThemeContext = createContext({
   theme: "dark",
@@ -19,13 +19,15 @@ export function ThemeProvider({ children }) {
           background: "#faf6e9",
           object: "#ece8d9",
           text: "#494949",
-          accent: "#fffdf6",
+          textDim: "#706b5eff",
+          accent: "#e9bb15ff",
           border: "#fffdf6",
         }
       : {
           background: "#323643",
           object: "#606470",
           text: "#f7f7f7",
+          textDim: "#b3c6d7ff",
           accent: "#93deff",
           border: "#93deff",
         };
@@ -34,4 +36,9 @@ export function ThemeProvider({ children }) {
   const value = useMemo(() => ({ theme, toggleTheme, colors }), [theme, toggleTheme, colors]);
 
   return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;
+}
+
+export const useStyleFactory = (stylaFactory)=>{
+  const theme = useContext(ThemeContext);
+  return useMemo(()=>stylaFactory(theme.colors), [theme.colors]);
 }
