@@ -15,6 +15,7 @@
     "@react-navigation/native-stack": "^7.3.26",
     "axios": "^1.12.2",
     "expo": "^54.0.9",
+    "expo-file-system": "~19.0.15",
     "expo-status-bar": "~3.0.8",
     "install": "^0.13.0",
     "npm": "^11.6.0",
@@ -26,6 +27,7 @@
     "react-native-safe-area-context": "~5.6.0",
     "react-native-screens": "~4.16.0",
     "react-native-web": "^0.21.0",
+    "react-native-webview": "^13.16.0",
     "react-native-worklets": "0.5.1",
     "react-native-youtube-iframe": "^2.4.1"
   },

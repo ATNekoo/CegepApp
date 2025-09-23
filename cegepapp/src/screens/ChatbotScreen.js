@@ -107,8 +107,6 @@ const styles = StyleSheet.create({
         marginTop:30,
         flexDirection:"column",
         width:"auto",
-        alignItems: 'center',
-        justifyContent: 'center',
     },      
     card: {
         flexDirection: "row",
@@ -125,7 +123,7 @@ const styles = StyleSheet.create({
         flexDirection:"column",
         alignItems: 'center',
         justifyContent: 'center',
-        marginTop:"2vh",
+        marginTop:"2",
     },
     title: {
         fontSize: 20,
@@ -140,7 +138,7 @@ const styles = StyleSheet.create({
         borderColor: "#93deff"
     },
     textInput: {
-        width:'35vh',
+        width:'170',
         borderWidth: 2,
         borderRadius: 4,
         padding:15,
