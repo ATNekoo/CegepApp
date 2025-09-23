@@ -1,6 +1,7 @@
 import { View, TextInput, StyleSheet, TouchableOpacity } from 'react-native';
 import { Image } from 'expo-image';
 import { useRef, useState } from "react";
+import { useStyleFactory } from '../context/ThemeContext';
 
 const SearchBar = ({onSearch})=>{
     const textInputRef = useRef(null);
@@ -11,6 +12,8 @@ const SearchBar = ({onSearch})=>{
         if(typeof onSearch === 'function')
             onSearch(value);
     }
+
+    const styles = useStyleFactory(styleFactory);
 
     return (
         <View 
@@ -23,9 +26,11 @@ const SearchBar = ({onSearch})=>{
                 onFocus={()=>setFocus(true)}
                 onBlur={()=>(setFocus(false), handleSearch(currentValue))}
                 placeholder='Search...'
+                placeholderTextColor={styles.placeholder.color}
                 />
             <TouchableOpacity onPress={()=>(textInputRef.current?.blur(), handleSearch(currentValue))}>
                 <Image 
+                    tintColor={styles.button.tintColor}
                     style={styles.button}
                     source={require("../icons/search-icon.svg")}/>
             </TouchableOpacity>
@@ -33,7 +38,7 @@ const SearchBar = ({onSearch})=>{
     );
 };
 
-const styles = StyleSheet.create({
+const styleFactory = (colors)=>({
     container: {
         flexDirection: 'row',
         alignItems: 'center',
@@ -47,17 +52,22 @@ const styles = StyleSheet.create({
         paddingHorizontal: 12,
         borderRadius: 12,
         borderWidth: 2,
-        borderColor: "#93deff",
-        color: '#FFF'
+        backgroundColor: colors.object,
+        borderColor: colors.border,
+        color: colors.text
     },
     input_focus: {
-        backgroundColor: '#606470',
+        backgroundColor: colors.object,
         outlineWidth: 0
     },
     button: {
         width: 32,
-        height: 32
+        height: 32,
+        tintColor: colors.accent
     },
+    placeholder: {
+        color: colors.textDim
+    }
 });
 
 export default SearchBar;
