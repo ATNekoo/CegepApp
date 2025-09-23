@@ -10,7 +10,8 @@ import DetailsScreen from "../screens/DetailsScreen";
 import SettingsScreen from "../screens/SettingsScreen";
 import ChatbotScreen from "../screens/ChatbotScreen";
 import FavoriteSongsScreen from "../screens/FavoriteSongsScreen";
-
+import SearchScreen from "../screens/SearchScreen";
+import makeTabIcon from "../components/makeTabIcon";
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
 
@@ -28,6 +29,7 @@ function Tabs() {
       }}
     >
       <Tab.Screen name="Home" component={HomeScreen} />
+      <Tab.Screen name="Search" component={SearchScreen} options={{tabBarIcon: makeTabIcon(require("../icons/search-icon.svg"))}}/>
       <Tab.Screen name="Playlist" component={Playlists} />
       <Tab.Screen name="Chatbot" component={ChatbotScreen} />
       <Tab.Screen name="Favorites" component={FavoriteSongsScreen} />
