@@ -21,7 +21,7 @@ export function ThemeProvider({ children }) {
           text: "#494949",
           textDim: "#706b5eff",
           accent: "#e9bb15ff",
-          border: "#fffdf6",
+          border: "#e9bb15ff",
         }
       : {
           background: "#323643",

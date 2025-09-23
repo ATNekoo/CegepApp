@@ -50,7 +50,7 @@ export default function HomeScreen({ navigation }) {
 
         <TouchableOpacity onPress={() => toggleLike(item)} style={{ marginLeft: 10 }}>
           <Image
-            style={[styles.likeIcon, { tintColor: liked ? '#93deff' : '#f7f7f7' }]}
+            style={[styles.likeIcon, { tintColor: liked ? colors.accent : colors.text }]}
             source={require('../icons/Like.png')}
           />
         </TouchableOpacity>
@@ -60,12 +60,6 @@ export default function HomeScreen({ navigation }) {
 
   return (
     <View style={[styles.container, { backgroundColor: colors.background }]}>
-      <TouchableOpacity
-        style={[styles.button, { backgroundColor: colors.object, borderColor: colors.accent }]}
-        onPress={() => navigation.navigate("Details")}
-      >
-        <Text style={[styles.buttonText, { color: colors.text }]}>See Details</Text>
-      </TouchableOpacity>
 
       <Text style={[styles.header, { color: colors.text }]}>Featured Songs</Text>
 
@@ -78,7 +72,7 @@ export default function HomeScreen({ navigation }) {
 
       <TouchableOpacity
         style={[styles.button, { backgroundColor: colors.object, borderColor: colors.accent }]}
-        onPress={() => setFeaturedSongs(getRandomSongs(50))}
+        onPress={() => setFeaturedSongs(getRandomSongs())}
       >
         <Text style={[styles.buttonText, { color: colors.text }]}>Shuffle Songs</Text>
       </TouchableOpacity>
