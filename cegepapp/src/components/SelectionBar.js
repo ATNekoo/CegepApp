@@ -1,10 +1,14 @@
 import { StyleSheet, Text, TouchableOpacity, ScrollView } from 'react-native';
-
+import { useStyleFactory } from '../context/ThemeContext';
 const SelectionBar = ({style, options, selection, onSelection})=>{
     const makeSelectionHandler = (key)=> () =>{
         if(typeof onSelection === 'function') 
             onSelection(key)
     }
+
+    const styles = useStyleFactory(styleFactory);
+
+
     return (
         <ScrollView 
             style={StyleSheet.compose(styles.container, style)}
@@ -25,7 +29,7 @@ const SelectionBar = ({style, options, selection, onSelection})=>{
     )
 }
 
-const styles = StyleSheet.create({
+const styleFactory =(colors)=>({
     container: {
         overflow: 'scroll',
         flexDirection: 'row',
@@ -35,9 +39,9 @@ const styles = StyleSheet.create({
         paddingHorizontal: 6,
     },
     option: {
-        backgroundColor: '#323643',
-        color: '#93deff',
-        borderColor: '#4087b7ff',
+        backgroundColor: colors.background,
+        color: colors.accent,
+        borderColor: colors.accent,
         borderWidth: 1,
         padding: 6,
         paddingHorizontal: 12,
@@ -45,9 +49,9 @@ const styles = StyleSheet.create({
         marginHorizontal: 6,
     },
     option_current: {
-        borderColor: '#93deff',
-        backgroundColor: '#93deff',
-        color: '#323643'
+        borderColor: colors.accent,
+        backgroundColor: colors.accent,
+        color: colors.text
     },
 })
 
