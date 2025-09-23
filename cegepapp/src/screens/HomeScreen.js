@@ -2,43 +2,54 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, FlatList, Image } from 'react-native';
 import { getRandomSongs } from '../hooks/RandomSong';
 import SongPlayerModal from '../hooks/MusicPlayer';
+import { useLiked } from '../context/FavoriteContext';
 
-export default function HomeScreen({navigation}) {
+export default function HomeScreen({ navigation }) {
 
-    const [featuredSongs, setFeaturedSongs] = useState([]);
-    const [modalVisible, setModalVisible] = useState(false)
-    const [currentSong, setCurrentSong] = useState(null)
+  const [featuredSongs, setFeaturedSongs] = useState([]);
+  const [modalVisible, setModalVisible] = useState(false)
+  const [currentSong, setCurrentSong] = useState(null)
 
-    useEffect(() => {
-        setFeaturedSongs(getRandomSongs());
-    }, []);
+  useEffect(() => {
+    setFeaturedSongs(getRandomSongs());
+  }, []);
 
-    const handleOpenPlayer = (song) => {
-      setCurrentSong(song);
-      setModalVisible(true)
-    }
+  const handleOpenPlayer = (song) => {
+    setCurrentSong(song);
+    setModalVisible(true)
+  }
 
-    
-    const renderSongItem = ({ item }) => (
-        <TouchableOpacity style={styles.card} onPress={() => handleOpenPlayer(item)}>
+  const { likedSongs, addSong } = useLiked();
+
+
+  const renderSongItem = ({ item }) => (
+    <TouchableOpacity style={styles.card} onPress={() => handleOpenPlayer(item)}>
+      <Image
+        source={{ uri: item.image }}
+        style={styles.image}
+      />
+
+      <View style={{ flex: 1 }}>
+        <Text style={styles.songLine}>{item.song_title} – {item.artist_name}</Text>
+
+        <Text style={[styles.songLine, { fontSize: 12, color: "#ccc" }]}>{item.album_name}</Text>
+      </View>
+      {(() => {
+        const liked = Array.isArray(likedSongs) && likedSongs.some((s) => s?.id === item?.id);
+        return (
+          <TouchableOpacity onPress={() => addSong(item)}>
             <Image
-                source={{ uri: item.image }}
-                style={styles.image}
+              style={[styles.likeIcon, { tintColor: liked ? '#93deff' : '#f7f7f7' }]}
+              source={require('../icons/Like.png')}
             />
+          </TouchableOpacity>
+        );
+      })()}
+    </TouchableOpacity>
 
-            <View style={{flex:1}}>
-            <Text style={styles.songLine}>{item.song_title} – {item.artist_name}</Text>
-            
-            <Text style={[styles.songLine,  {fontSize:12, color:"#ccc"}]}>{item.album_name}</Text>
-            </View>
-            <TouchableOpacity>
-              <Image style={styles.likeIcon}  source={require('../icons/Like.png')}/>
-            </TouchableOpacity>
-        </TouchableOpacity>
+  );
 
-    );
-
-    return (
+  return (
     <View style={styles.container}>
       <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Details")}>
         <Text style={styles.buttonText}>See Details</Text>
@@ -51,7 +62,7 @@ export default function HomeScreen({navigation}) {
         renderItem={renderSongItem}
         keyExtractor={(item) => item?.id?.toString()}
         showsVerticalScrollIndicator={false}
-    />
+      />
 
       <TouchableOpacity
         style={styles.button}
@@ -74,15 +85,15 @@ export default function HomeScreen({navigation}) {
 }
 
 const styles = StyleSheet.create({
-  container: { 
-    flex: 1, 
-    padding: 20, 
+  container: {
+    flex: 1,
+    padding: 20,
     backgroundColor: "#323643",
   },
 
-  header: { 
-    fontSize: 22, 
-    fontWeight: "600", 
+  header: {
+    fontSize: 22,
+    fontWeight: "600",
     marginBottom: 10,
     color: "#f7f7f7"
   },
@@ -98,10 +109,10 @@ const styles = StyleSheet.create({
     borderColor: "#93deff"
   },
 
-  image: { 
-    width: 60, 
-    height: 60, 
-    borderRadius: 5, 
+  image: {
+    width: 60,
+    height: 60,
+    borderRadius: 5,
     borderWidth: 1,
     marginRight: 10,
     borderColor: "#93deff",
@@ -131,8 +142,8 @@ const styles = StyleSheet.create({
     fontWeight: "500",
   },
 
-  likeIcon:{
-    width:30,
-    height:30
+  likeIcon: {
+    width: 30,
+    height: 30
   }
 });
