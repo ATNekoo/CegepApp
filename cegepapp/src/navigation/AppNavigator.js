@@ -1,4 +1,3 @@
-import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
@@ -8,6 +7,8 @@ import DetailsScreen from "../screens/DetailsScreen";
 import SettingsScreen from "../screens/SettingsScreen";
 import ChatbotScreen from "../screens/ChatbotScreen";
 import FavoriteSongsScreen from "../screens/FavoriteSongsScreen";
+import SearchScreen from "../screens/SearchScreen";
+import makeTabIcon from "../components/makeTabIcon";
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
 
@@ -26,6 +27,14 @@ function Tabs() {
         options={{ title: "Home" }}
       />
       <Tab.Screen
+        name="Search"
+        component={SearchScreen}
+        options={{ 
+          title: "Search", 
+          tabBarIcon: makeTabIcon(require("../icons/search-icon.svg"))
+        }}
+      />
+      <Tab.Screen
       name="Playlist"
       component={Playlists}
       options={{ title: "Playlist" }}
@@ -35,6 +44,7 @@ function Tabs() {
         component={ChatbotScreen}
         options={{ title: "Chatbot"}}
       />
+      
            <Tab.Screen
         name="favoriteSongs"
         component={FavoriteSongsScreen}
