@@ -1,68 +1,64 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Modal, View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import YoutubePlayer from "react-native-youtube-iframe";
- 
+import { ThemeContext } from "../context/ThemeContext";
+
 export default function SongPlayerModal({ visible, onClose, videoId, title }) {
-  return (
-    <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
-      <View style={styles.overlay}>
-        <View style={styles.modal}>
-          <Text style={styles.title}>{title}</Text>
- 
-          {videoId ? (
-            <YoutubePlayer height={200} play={true} videoId={videoId}/>
-          ) : (
-            <Text style={styles.noVideo}>No video available</Text>
-          )}
- 
-          <TouchableOpacity onPress={onClose} style={styles.button}>
-            <Text style={styles.text}>Close</Text>
-          </TouchableOpacity>
-        </View>
-      </View>
-    </Modal>
-  );
+    const { colors } = useContext(ThemeContext);
+
+    return (
+        <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
+            <View style={styles.overlay}>
+                <View style={[styles.modal, { backgroundColor: colors.object, borderColor: colors.border }]}>
+                    <Text style={[styles.title, { color: colors.text }]}>{title}</Text>
+
+                    {videoId ? (
+                    <YoutubePlayer height={200} play={true} videoId={videoId} />
+                    ) : (
+                        <Text style={[styles.noVideo, { color: colors.text }]}>No video available</Text>
+                    )}
+
+                    <TouchableOpacity onPress={onClose} style={[styles.button, { backgroundColor: colors.background, borderColor: colors.border }]}>
+                        <Text style={[styles.text, { color: colors.text }]}>Close</Text>
+                    </TouchableOpacity>
+                </View>
+            </View>
+        </Modal>
+    );
 }
- 
+
 const styles = StyleSheet.create({
-    overlay: { 
-        flex: 1, 
-        justifyContent: "center", 
-        alignItems: "center", 
-        backgroundColor: "rgba(0,0,0,0.6)" 
+    overlay: {
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: "rgba(0,0,0,0.6)",
     },
-    modal: { 
-        width: "90%", 
-        backgroundColor: "#606470", 
-        borderRadius: 12, 
-        padding: 16, 
-        borderWidth: 2, 
-        borderColor: "#93deff" 
+    modal: {
+        width: "90%",
+        borderRadius: 12,
+        padding: 16,
+        borderWidth: 2,
     },
-    title: { 
-        fontSize: 18, 
-        fontWeight: "600", 
-        marginBottom: 12, 
-        color: "#f7f7f7", 
-        textAlign: "center" 
+    title: {
+        fontSize: 18,
+        fontWeight: "600",
+        marginBottom: 12,
+        textAlign: "center",
     },
-    noVideo: { 
-        color: "#f7f7f7", 
-        textAlign: "center", 
-        marginVertical: 20 
+    noVideo: {
+        textAlign: "center",
+        marginVertical: 20,
     },
-    button: { 
-        marginTop: 16, 
-        padding: 12, 
-        borderRadius: 8, 
-        backgroundColor: "#323643", 
-        borderWidth: 2, 
-        borderColor: "#93deff", 
-        alignItems: "center" 
+    button: {
+        marginTop: 16,
+        padding: 12,
+        borderRadius: 8,
+        borderWidth: 2,
+        alignItems: "center",
     },
-    text: { 
-        color: "#f7f7f7", 
-        fontSize: 14, 
-        fontWeight: "500" 
+    text: {
+        fontSize: 14,
+        fontWeight: "500",
     },
 });

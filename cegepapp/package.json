@@ -15,7 +15,11 @@
     "@react-navigation/native-stack": "^7.3.26",
     "axios": "^1.12.2",
     "expo": "^54.0.9",
+<<<<<<< HEAD
     "expo-image": "^3.0.8",
+=======
+    "expo-file-system": "~19.0.15",
+>>>>>>> dev
     "expo-status-bar": "~3.0.8",
     "install": "^0.13.0",
     "npm": "^11.6.0",
