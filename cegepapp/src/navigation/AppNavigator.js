@@ -19,7 +19,7 @@ function Tabs() {
   return (
     <Tab.Navigator
       screenOptions={{
-        headerStyle: { backgroundColor: colors.background, height: 60, borderBottomWidth: 2, borderBottomColor: colors.accent },
+        headerStyle: { backgroundColor: colors.background, height: 60, borderBottomWidth: 2, borderBottomColor: colors.text },
         headerTitleStyle: { fontSize: 16, fontWeight: "bold", color: colors.text },
         headerTitleAlign: "center",
         tabBarActiveTintColor: colors.accent,
