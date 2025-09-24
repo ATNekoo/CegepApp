@@ -12,7 +12,7 @@ const SelectionBar = ({style, options, selection, onSelection})=>{
     return (
         <ScrollView 
             style={StyleSheet.compose(styles.container, style)}
-            horizontal={true}>
+            horizontal={true} showsHorizontalScrollIndicator={false}>
             {Object.entries(options).map(([key, label])=>{
                 return (
                     <TouchableOpacity 

@@ -36,7 +36,7 @@ const SearchScreen = ()=>{
     return (
         <View style={styles.page}>
             <SearchBar onSearch={handleSearch}/>
-            <SelectionBar options={SEARCH_OPTIONS} selection={currentOption} onSelection={(key)=>setCurrentOption(key)}/>
+            <SelectionBar options={SEARCH_OPTIONS} selection={currentOption} onSelection={(key)=>setCurrentOption(key)} />
             <FlatList
                 style={styles.content}
                 data={currentData}
