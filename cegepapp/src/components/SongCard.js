@@ -85,7 +85,7 @@ const styleFactory = (colors) => ({
         tintColor: colors.textDim
     },
     likeIcon_active: {
-        tintColor: colors.accent
+        tintColor: colors.like
     }
 });
 

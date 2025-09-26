@@ -27,9 +27,14 @@ const filterSong = (field, hint) => {
 const SearchScreen = () => {
     const [selectedItem, setSelectedItem] = useState(null);
     const [currentOption, setCurrentOption] = useState('song_title');
-    const [currentData, setCurrentData] = useState([]);
+    const [currentHint, setCurrentHint] = useState('');
+    const currentData = filterSong(currentOption, currentHint);
+
     const handleSearch = (hint) => {
-        setCurrentData(filterSong(currentOption, hint));
+        setCurrentHint(hint);
+    }
+    const handleOption = (option)=> {
+        setCurrentOption(option);
     }
     const styles = useStyleFactory(styleFactory);
 
