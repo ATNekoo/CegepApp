@@ -1,6 +1,6 @@
 import { Image } from "expo-image";
 
-const makeTabIcon = (source) => ({size, color})=>{
+const makeTabIcon = (source) => ({ size, color }) => {
     return (
         <Image
             tintColor={color}
