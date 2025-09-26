@@ -22,6 +22,7 @@ export function ThemeProvider({ children }) {
                 textDim: "#706b5eff",
                 accent: "#e9bb15ff",
                 border: "#e9bb15ff",
+                like: "#ff4c3bff"
             }
             : {
                 background: "#323643",
@@ -30,6 +31,7 @@ export function ThemeProvider({ children }) {
                 textDim: "#b3c6d7ff",
                 accent: "#93deff",
                 border: "#93deff",
+                like: "#ff687fff"
             };
     }, [theme]);
 
