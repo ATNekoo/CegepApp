@@ -38,8 +38,7 @@ export default function ChatbotScreen() {
             setRecommandedSongs(parsedOutputBot.musics);
             setBotAnswer(parsedOutputBot.message);
         } catch (error) {
-            console.error("Erreur avec le ChatBot (...jpp)", error);
-            setBotAnswer("J'ai mal coder woops.");
+            setBotAnswer("Il y a eu une erreur dans ma recherche, veuillez réessayer.");
         }
     };
 
@@ -125,7 +124,7 @@ const styles = StyleSheet.create({
         flexDirection: "column",
         alignItems: 'center',
         justifyContent: 'center',
-        marginTop: "2",
+        marginBottom: 160,
     },
     title: {
         fontSize: 20,
