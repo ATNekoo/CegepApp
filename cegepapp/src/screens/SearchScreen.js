@@ -15,36 +15,41 @@ const SEARCH_OPTIONS = {
 }
 
 const filterSong = (field, hint) => {
-    return data.map(song=>({
-            match: song[field]?.toLowerCase().indexOf(hint.trim().toLowerCase()),
-            song
-        }))
-        .filter(({match})=>match >= 0)
-        .sort((a,b)=>a.match-b.match)
-        .map(({song})=>song);
+    return data.map(song => ({
+        match: song[field]?.toLowerCase().indexOf(hint.trim().toLowerCase()),
+        song
+    }))
+        .filter(({ match }) => match >= 0)
+        .sort((a, b) => a.match - b.match)
+        .map(({ song }) => song);
 }
 
-const SearchScreen = ()=>{
+const SearchScreen = () => {
     const [selectedItem, setSelectedItem] = useState(null);
     const [currentOption, setCurrentOption] = useState('song_title');
-    const [currentData, setCurrentData] = useState([]);
-    const handleSearch = (hint)=>{
-        setCurrentData(filterSong(currentOption, hint));
+    const [currentHint, setCurrentHint] = useState('');
+    const currentData = filterSong(currentOption, currentHint);
+
+    const handleSearch = (hint) => {
+        setCurrentHint(hint);
+    }
+    const handleOption = (option)=> {
+        setCurrentOption(option);
     }
     const styles = useStyleFactory(styleFactory);
 
     return (
         <View style={styles.page}>
-            <SearchBar onSearch={handleSearch}/>
-            <SelectionBar options={SEARCH_OPTIONS} selection={currentOption} onSelection={(key)=>setCurrentOption(key)} />
+            <SearchBar onSearch={handleSearch} />
+            <SelectionBar options={SEARCH_OPTIONS} selection={currentOption} onSelection={(key) => setCurrentOption(key)} />
             <FlatList
                 style={styles.content}
                 data={currentData}
-                renderItem={({item, index})=>(
-                    <SongCard 
-                        item={item} 
+                renderItem={({ item, index }) => (
+                    <SongCard
+                        item={item}
                         index={index}
-                        onPress={(item)=>setSelectedItem(item)}/>
+                        onPress={(item) => setSelectedItem(item)} />
                 )}
             />
             <SongPlayerModal
@@ -57,21 +62,7 @@ const SearchScreen = ()=>{
     )
 }
 
-const styles = StyleSheet.create({
-    page: {
-        backgroundColor: '#323643',
-        display: 'flex',
-        overflow: 'hidden',
-        height: '100%',
-    },
-    content: {
-        marginTop: 12,
-        padding: 20,
-        paddingTop: 8,
-    }
-})
-
-const styleFactory = (colors)=>(console.log(colors), {
+const styleFactory = (colors) => (console.log(colors), {
     page: {
         backgroundColor: colors.background,
         display: 'flex',
